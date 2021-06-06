@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1000</width>
-    <height>781</height>
+    <height>600</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -27,6 +27,27 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>MAX GOALS</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="LCD_MaxGoals">
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="segmentStyle">
+         <enum>QLCDNumber::Flat</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
     <item row="3" column="2">
      <widget class="QGraphicsView" name="graphicsView">
       <property name="sizePolicy">
@@ -37,8 +58,8 @@
       </property>
       <property name="minimumSize">
        <size>
-        <width>625</width>
-        <height>625</height>
+        <width>700</width>
+        <height>435</height>
        </size>
       </property>
       <property name="maximumSize">
@@ -48,6 +69,20 @@
        </size>
       </property>
      </widget>
+    </item>
+    <item row="0" column="2" rowspan="3">
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QLCDNumber" name="LCD_J1"/>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLCDNumber" name="LCD_J2">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
     <item row="3" column="1">
      <layout class="QGridLayout" name="gridLayout_2">
@@ -119,46 +154,6 @@
       </item>
      </layout>
     </item>
-    <item row="4" column="2">
-     <spacer name="verticalSpacer_3">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="0" column="1">
-     <spacer name="verticalSpacer_2">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="0" column="2" rowspan="3">
-     <layout class="QGridLayout" name="gridLayout_4">
-      <item row="0" column="1">
-       <widget class="QLCDNumber" name="LCD_J2">
-        <property name="layoutDirection">
-         <enum>Qt::LeftToRight</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLCDNumber" name="LCD_J1"/>
-      </item>
-     </layout>
-    </item>
     <item row="3" column="3">
      <layout class="QGridLayout" name="gridLayout_3">
       <item row="1" column="0">
@@ -188,6 +183,19 @@
         </item>
        </layout>
       </item>
+      <item row="3" column="0">
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
       <item row="2" column="0">
        <widget class="QPushButton" name="BTN_Shot2">
         <property name="text">
@@ -209,19 +217,6 @@
          <string>JUGADOR 2</string>
         </property>
        </widget>
-      </item>
-      <item row="3" column="0">
-       <spacer name="verticalSpacer_4">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>40</height>
-         </size>
-        </property>
-       </spacer>
       </item>
      </layout>
     </item>

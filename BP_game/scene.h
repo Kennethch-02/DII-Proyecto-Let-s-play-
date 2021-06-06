@@ -9,12 +9,15 @@ class Scene : public QGraphicsScene
 {
     Q_OBJECT
 public:
+
     Scene(QObject *parent = nullptr);
+    object *img_ball = new object(":balon.png");
+    void drawRect(double Px, double Py, double w, double h,
+                  QPen color);
+    void drawBall(double Px, double Py, double w, double h,
+                  double v);
 public slots:
     void Update();
 private:
-    object *img;
-
 };
-
 #endif // SCENE_H

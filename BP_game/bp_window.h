@@ -23,6 +23,15 @@ public:
     BP_Window(QWidget *parent = nullptr);
     QString mode;
     void START();
+    void draw_matrix();
+    void change_turn();
+    int matrix[5][8] = {{0,0,0,0,0,0,0,0},
+                        {0,0,0,0,0,0,0,0},
+                        {3,0,0,0,0,0,0,4},
+                        {0,0,0,0,0,0,0,0},
+                        {0,0,0,0,0,0,0,0}};
+    int jugadores;
+    int max_goles;
 signals:
     void update();
 private slots:

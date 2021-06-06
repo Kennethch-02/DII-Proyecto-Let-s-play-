@@ -27,6 +27,8 @@ void MainWindow::on_BTN_BPGAME_clicked()
         return;
     }else{
        BP.mode = bp.mode;
+       BP.max_goles = bp.max_goles;
+       BP.jugadores = bp.jugadores;
        BP.START();
        BP.show();
     }

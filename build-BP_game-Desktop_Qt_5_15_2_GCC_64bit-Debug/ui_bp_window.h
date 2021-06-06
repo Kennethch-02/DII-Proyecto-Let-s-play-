@@ -29,7 +29,13 @@ class Ui_BP_Window
 public:
     QWidget *centralwidget;
     QGridLayout *gridLayout;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *label;
+    QLCDNumber *LCD_MaxGoals;
     QGraphicsView *graphicsView;
+    QGridLayout *gridLayout_4;
+    QLCDNumber *LCD_J1;
+    QLCDNumber *LCD_J2;
     QGridLayout *gridLayout_2;
     QHBoxLayout *horizontalLayout;
     QLabel *label_2;
@@ -38,31 +44,43 @@ public:
     QSpinBox *Fuerza1;
     QPushButton *Menu;
     QPushButton *BTN_Shot1;
-    QSpacerItem *verticalSpacer_3;
-    QSpacerItem *verticalSpacer_2;
-    QGridLayout *gridLayout_4;
-    QLCDNumber *LCD_J2;
-    QLCDNumber *LCD_J1;
     QGridLayout *gridLayout_3;
     QGridLayout *gridLayout_5;
     QLabel *label_4;
     QSpinBox *Fuerza2;
+    QSpacerItem *verticalSpacer_4;
     QPushButton *BTN_Shot2;
     QLabel *L_Jugador2;
-    QSpacerItem *verticalSpacer_4;
     QSpacerItem *verticalSpacer_5;
 
     void setupUi(QMainWindow *BP_Window)
     {
         if (BP_Window->objectName().isEmpty())
             BP_Window->setObjectName(QString::fromUtf8("BP_Window"));
-        BP_Window->resize(1000, 781);
+        BP_Window->resize(1000, 600);
         BP_Window->setMinimumSize(QSize(600, 600));
         BP_Window->setMaximumSize(QSize(1000, 1000));
         centralwidget = new QWidget(BP_Window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         gridLayout = new QGridLayout(centralwidget);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        label = new QLabel(centralwidget);
+        label->setObjectName(QString::fromUtf8("label"));
+
+        horizontalLayout_2->addWidget(label);
+
+        LCD_MaxGoals = new QLCDNumber(centralwidget);
+        LCD_MaxGoals->setObjectName(QString::fromUtf8("LCD_MaxGoals"));
+        LCD_MaxGoals->setLineWidth(0);
+        LCD_MaxGoals->setSegmentStyle(QLCDNumber::Flat);
+
+        horizontalLayout_2->addWidget(LCD_MaxGoals);
+
+
+        gridLayout->addLayout(horizontalLayout_2, 0, 1, 1, 1);
+
         graphicsView = new QGraphicsView(centralwidget);
         graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
@@ -70,10 +88,26 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(graphicsView->sizePolicy().hasHeightForWidth());
         graphicsView->setSizePolicy(sizePolicy);
-        graphicsView->setMinimumSize(QSize(625, 625));
+        graphicsView->setMinimumSize(QSize(700, 435));
         graphicsView->setMaximumSize(QSize(625, 625));
 
         gridLayout->addWidget(graphicsView, 3, 2, 1, 1);
+
+        gridLayout_4 = new QGridLayout();
+        gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
+        LCD_J1 = new QLCDNumber(centralwidget);
+        LCD_J1->setObjectName(QString::fromUtf8("LCD_J1"));
+
+        gridLayout_4->addWidget(LCD_J1, 0, 0, 1, 1);
+
+        LCD_J2 = new QLCDNumber(centralwidget);
+        LCD_J2->setObjectName(QString::fromUtf8("LCD_J2"));
+        LCD_J2->setLayoutDirection(Qt::LeftToRight);
+
+        gridLayout_4->addWidget(LCD_J2, 0, 1, 1, 1);
+
+
+        gridLayout->addLayout(gridLayout_4, 0, 2, 3, 1);
 
         gridLayout_2 = new QGridLayout();
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
@@ -123,30 +157,6 @@ public:
 
         gridLayout->addLayout(gridLayout_2, 3, 1, 1, 1);
 
-        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
-
-        gridLayout->addItem(verticalSpacer_3, 4, 2, 1, 1);
-
-        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
-
-        gridLayout->addItem(verticalSpacer_2, 0, 1, 1, 1);
-
-        gridLayout_4 = new QGridLayout();
-        gridLayout_4->setObjectName(QString::fromUtf8("gridLayout_4"));
-        LCD_J2 = new QLCDNumber(centralwidget);
-        LCD_J2->setObjectName(QString::fromUtf8("LCD_J2"));
-        LCD_J2->setLayoutDirection(Qt::LeftToRight);
-
-        gridLayout_4->addWidget(LCD_J2, 0, 1, 1, 1);
-
-        LCD_J1 = new QLCDNumber(centralwidget);
-        LCD_J1->setObjectName(QString::fromUtf8("LCD_J1"));
-
-        gridLayout_4->addWidget(LCD_J1, 0, 0, 1, 1);
-
-
-        gridLayout->addLayout(gridLayout_4, 0, 2, 3, 1);
-
         gridLayout_3 = new QGridLayout();
         gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
         gridLayout_5 = new QGridLayout();
@@ -168,6 +178,10 @@ public:
 
         gridLayout_3->addLayout(gridLayout_5, 1, 0, 1, 1);
 
+        verticalSpacer_4 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        gridLayout_3->addItem(verticalSpacer_4, 3, 0, 1, 1);
+
         BTN_Shot2 = new QPushButton(centralwidget);
         BTN_Shot2->setObjectName(QString::fromUtf8("BTN_Shot2"));
 
@@ -178,10 +192,6 @@ public:
         L_Jugador2->setFont(font);
 
         gridLayout_3->addWidget(L_Jugador2, 0, 0, 1, 1);
-
-        verticalSpacer_4 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
-
-        gridLayout_3->addItem(verticalSpacer_4, 3, 0, 1, 1);
 
 
         gridLayout->addLayout(gridLayout_3, 3, 3, 1, 1);
@@ -200,6 +210,7 @@ public:
     void retranslateUi(QMainWindow *BP_Window)
     {
         BP_Window->setWindowTitle(QCoreApplication::translate("BP_Window", "BP_Window", nullptr));
+        label->setText(QCoreApplication::translate("BP_Window", "MAX GOALS", nullptr));
         label_2->setText(QCoreApplication::translate("BP_Window", "Fuerza", nullptr));
         L_Jugador1->setText(QCoreApplication::translate("BP_Window", "Jugador 1", nullptr));
         Menu->setText(QCoreApplication::translate("BP_Window", "Menu", nullptr));

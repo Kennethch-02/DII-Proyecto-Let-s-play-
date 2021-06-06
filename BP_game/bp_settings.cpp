@@ -10,12 +10,16 @@ BP_Settings::BP_Settings(QWidget *parent) :
 void BP_Settings::on_BTN_1vs1_clicked()
 {
     mode = "1vs1";
+    jugadores = ui->jugadores->value();
+    max_goles = ui->goles->value();
     accept();
 }
 
 void BP_Settings::on_BTN_1vsCPU_clicked()
 {
     mode = "1vsCPU";
+    jugadores = ui->jugadores->value();
+    max_goles = ui->goles->value();
     accept();
 }
 

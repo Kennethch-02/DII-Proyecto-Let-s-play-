@@ -14,7 +14,8 @@ class BP_Settings : public QDialog
 public:
     explicit BP_Settings(QWidget *parent = nullptr);
     QString mode;
-
+    int jugadores;
+    int max_goles;
 private slots:
     void on_BTN_1vs1_clicked();
 
