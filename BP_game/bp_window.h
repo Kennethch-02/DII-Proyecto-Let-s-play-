@@ -25,11 +25,7 @@ public:
     void START();
     void draw_matrix();
     void change_turn();
-    int matrix[5][8] = {{0,0,0,0,0,0,0,0},
-                        {0,0,0,0,0,0,0,0},
-                        {3,0,0,0,0,0,0,4},
-                        {0,0,0,0,0,0,0,0},
-                        {0,0,0,0,0,0,0,0}};
+    int check_selec;
     int jugadores;
     int max_goles;
 signals:
@@ -40,6 +36,22 @@ private slots:
     void on_BTN_Shot1_clicked();
 
     void on_BTN_Shot2_clicked();
+
+    void on_Right1_stateChanged(int arg1);
+
+    void on_Up1_stateChanged(int arg1);
+
+    void on_Left1_stateChanged(int arg1);
+
+    void on_Down1_stateChanged(int arg1);
+
+    void on_Up2_stateChanged(int arg1);
+
+    void on_Right2_stateChanged(int arg1);
+
+    void on_Left2_stateChanged(int arg1);
+
+    void on_Down2_stateChanged(int arg1);
 
 private:
     Ui::BP_Window *ui;

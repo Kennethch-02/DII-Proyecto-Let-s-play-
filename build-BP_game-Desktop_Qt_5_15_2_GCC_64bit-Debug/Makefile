@@ -1596,7 +1596,8 @@ bp_window.o: ../BP_game/bp_window.cpp ../BP_game/bp_window.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QThread \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qthread.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qdeadlinetimer.h \
-		../../../Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h \
+		../BP_game/mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o bp_window.o ../BP_game/bp_window.cpp
 
 mainwindow.o: ../BP_game/mainwindow.cpp ../BP_game/mainwindow.h \

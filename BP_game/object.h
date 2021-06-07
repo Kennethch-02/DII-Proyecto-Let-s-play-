@@ -14,7 +14,7 @@ public:
     QPointF getPosition();
     QPointF getVelocity();
     QSizeF getSize();
-
+    int fuerza;
 protected:
     QRectF boundingRect() const;
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option,

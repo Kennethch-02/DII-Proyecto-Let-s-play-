@@ -4,7 +4,7 @@
 #include "thread.h"
 #include "mainwindow.h"
 
-#define Mseg 10
+#define Mseg 200
 BP_Window::BP_Window(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::BP_Window)
@@ -18,6 +18,7 @@ BP_Window::BP_Window(QWidget *parent)
     });
     connect(this, &BP_Window::update, scene,
             &Scene::Update);
+    check_selec = 0;
 }
 void BP_Window::START()
 {
@@ -30,7 +31,6 @@ void BP_Window::START()
     draw_matrix();
     thread->start(Mseg, QThread::HighestPriority);
 }
-
 void BP_Window::draw_matrix()
 {
     int max_jugadores = jugadores/2;
@@ -38,11 +38,11 @@ void BP_Window::draw_matrix()
         int f = rand()%(4-0+1)+0;
         int c = rand()%(3-0+1)+0;
         int f1=rand()%(4-0+1)+0;
-        int c1=rand()%(7-4+1)+4;
-        if(matrix[f][c] != 3 and matrix[f][c]!=1){
-            if(matrix[f1][c1]!=4 and matrix[f1][c1]!=1){
-                matrix[f][c] = 1;
-                matrix[f1][c1] = 1;
+        int c1=rand()%(8-5+1)+5;
+        if(scene->matrix[f][c] != 3 and scene->matrix[f][c]!=1){
+            if(scene->matrix[f1][c1]!=4 and scene->matrix[f1][c1]!=1){
+                scene->matrix[f][c] = 1;
+                scene->matrix[f1][c1] = 1;
             }else{
                 i--;
             }
@@ -55,16 +55,21 @@ void BP_Window::draw_matrix()
     double w = 85.0;
     double h = 85.0;
     for (int fila = 0; fila<5 ;fila++) {
-        for (int columna = 0;columna<8;columna++ ) {
-            if(matrix[fila][columna] == 3){
-                scene->drawRect(Px,Py,w,h, QPen(Qt::red));
+        for (int columna = 0;columna<9;columna++){
+            if(scene->matrix[fila][columna] == 3){
+                scene->drawRect(Px+5,Py,w,h, QPen(Qt::red));
                 Px += (w+2);
-            }else if(matrix[fila][columna] == 4){
-                scene->drawRect(Px,Py,w,h, QPen(Qt::blue));
-                Px += (w+0.5);
-            }else if(matrix[fila][columna] == 0){
+            }else if(scene->matrix[fila][columna] == 4){
+                scene->drawRect(Px+5,Py,w,h, QPen(Qt::blue));
+                Px += (w);
+            }else if(scene->matrix[fila][columna] == 0){
                 //scene->drawRect(Px,Py,w,h, QPen(Qt::white));
-                Px += (w+0.5);
+                Px += (w);
+            }else if(scene->matrix[fila][columna] == 2){
+                scene->drawBall(Px, Py, w, h, 0);
+                scene->Ball_pos.setX(fila);
+                scene->Ball_pos.setY(columna);
+                Px += (w);
             }else{
                 scene->drawRect(Px+5,Py+5,w-10,h-10, QPen(Qt::black));
                 scene->drawRect(Px+10,Py+10,w-20,h-20, QPen(Qt::black));
@@ -98,8 +103,152 @@ void BP_Window::on_Menu_clicked()
 void BP_Window::on_BTN_Shot1_clicked()
 {
     change_turn();
+    scene->img_ball->fuerza = ui->Fuerza1->value();
+    if(ui->Up1->isChecked()){
+        scene->direccion = "U";
+        if(ui->Left1->isChecked()){
+            scene->direccion = "U/L";
+        }else if(ui->Right1->isChecked()){
+            scene->direccion = "U/R";
+        }
+    }else if(ui->Down1->isChecked()){
+        scene->direccion = "D";
+        if(ui->Left1->isChecked()){
+            scene->direccion = "D/L";
+        }else if(ui->Right1->isChecked()){
+            scene->direccion = "D/R";
+        }
+    }else if(ui->Right1->isChecked()){
+        scene->direccion = "R";
+        if(ui->Up1->isChecked()){
+            scene->direccion = "U/R";
+        }else if(ui->Down1->isChecked()){
+            scene->direccion = "D/R";
+        }
+    }else if(ui->Left1->isChecked()){
+        scene->direccion = "L";
+        if(ui->Up1->isChecked()){
+            scene->direccion = "U/L";
+        }else if(ui->Down1->isChecked()){
+            scene->direccion = "D/L";
+        }
+    }
+    scene->init_direction();
+    scene->shoot = true;
 }
 void BP_Window::on_BTN_Shot2_clicked()
 {
     change_turn();
+    scene->img_ball->fuerza = ui->Fuerza2->value();
+    if(ui->Up2->isChecked()){
+        scene->direccion = "U";
+        if(ui->Left2->isChecked()){
+            scene->direccion = "U/L";
+        }else if(ui->Right2->isChecked()){
+            scene->direccion = "U/R";
+        }
+    }else if(ui->Down2->isChecked()){
+        scene->direccion = "D";
+        if(ui->Left2->isChecked()){
+            scene->direccion = "D/L";
+        }else if(ui->Right2->isChecked()){
+            scene->direccion = "D/R";
+        }
+    }else if(ui->Right2->isChecked()){
+        scene->direccion = "R";
+        if(ui->Up2->isChecked()){
+            scene->direccion = "U/R";
+        }else if(ui->Down2->isChecked()){
+            scene->direccion = "D/R";
+        }
+    }else if(ui->Left2->isChecked()){
+        scene->direccion = "L";
+        if(ui->Up2->isChecked()){
+            scene->direccion = "U/L";
+        }else if(ui->Down2->isChecked()){
+            scene->direccion = "D/L";
+        }
+    }
+    scene->init_direction();
+    scene->shoot = true;
+}
+void BP_Window::on_Right1_stateChanged(int arg1)
+{
+    if(arg1 != 0){
+        ui->Left1->setDisabled(true);
+        check_selec++;
+    }else{
+        ui->Left1->setDisabled(false);
+        check_selec--;
+    }
+}
+void BP_Window::on_Up1_stateChanged(int arg1)
+{
+    if(arg1 != 0){
+        ui->Down1->setDisabled(true);
+        check_selec++;
+    }else{
+        ui->Down1->setDisabled(false);
+        check_selec--;
+    }
+}
+void BP_Window::on_Left1_stateChanged(int arg1)
+{
+    if(arg1 != 0){
+        ui->Right1->setDisabled(true);
+        check_selec++;
+    }else{
+        ui->Right1->setDisabled(false);
+        check_selec--;
+    }
+}
+void BP_Window::on_Down1_stateChanged(int arg1)
+{
+    if(arg1 != 0){
+        ui->Up1->setDisabled(true);
+        check_selec++;
+    }else{
+        ui->Up1->setDisabled(false);
+        check_selec--;
+    }
+}
+void BP_Window::on_Right2_stateChanged(int arg1)
+{
+    if(arg1 != 0){
+        ui->Left2->setDisabled(true);
+        check_selec++;
+    }else{
+        ui->Left2->setDisabled(false);
+        check_selec--;
+    }
+}
+void BP_Window::on_Up2_stateChanged(int arg1)
+{
+    if(arg1 != 0){
+        ui->Down2->setDisabled(true);
+        check_selec++;
+    }else{
+        ui->Down2->setDisabled(false);
+        check_selec--;
+    }
+}
+void BP_Window::on_Left2_stateChanged(int arg1)
+{
+    if(arg1 != 0){
+        ui->Right2->setDisabled(true);
+        check_selec++;
+    }else{
+        ui->Right2->setDisabled(false);
+        check_selec--;
+    }
+}
+void BP_Window::on_Down2_stateChanged(int arg1)
+{
+    if(arg1 != 0){
+        ui->Up2->setDisabled(true);
+        check_selec++;
+    }else{
+        ui->Up2->setDisabled(false);
+        check_selec--;
+    }
 }
