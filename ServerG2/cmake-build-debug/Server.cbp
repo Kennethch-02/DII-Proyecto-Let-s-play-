@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server">
+				<Option output="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug/Server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DHAS_BOOST"/>
+					<Add directory="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 Server"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server/fast">
+				<Option output="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug/Server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DHAS_BOOST"/>
+					<Add directory="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 Server/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Codex.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Codex.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Memory.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Memory.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Server.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Server.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/main.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
