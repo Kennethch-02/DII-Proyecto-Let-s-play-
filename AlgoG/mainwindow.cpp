@@ -8,6 +8,25 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+
+
+    sThread = new Thread(this,&swapstr,&SWA,&SWB);
+
+    connect(sThread,&Thread::valswap,[&](string ms){
+        if(ms=="next"){
+
+            this->nextOrder();
+
+        }else{
+            this->prevOrder();
+        }
+        });
+  /*  connect(sThread,&Thread::valram,ui->Ram,&QTextBrowser::setText);
+    connect(sThread,&Thread::valout,ui->Out,&QTextBrowser::setText);
+
+    N = 0;
+    */
 }
 
 MainWindow::~MainWindow()
@@ -48,53 +67,35 @@ void MainWindow::on_play_clicked()
 
         }
     }
+
 /*
-    QLabel *label = new QLabel(this);
-    label->setScaledContents(true);
-    label->setPixmap(QPixmap("://Image/Image2.jpg").copy(0,0,wei,lon));
-    ui->Grid->addWidget(label,0,0);
-
-    label = new QLabel(this);
-    label->setScaledContents(true);
-    label->setPixmap(QPixmap("://Image/Image2.jpg").copy(wei,0,wei,lon));
-    ui->Grid->addWidget(label,0,1);
-
-    label = new QLabel(this);
-    label->setScaledContents(true);
-    label->setPixmap(QPixmap("://Image/Image2.jpg").copy(2*wei,0,wei,lon));
-    ui->Grid->addWidget(label,0,2);
-
-*//*
     QPainter painter;
     painter.begin(&*pixmapList[0]);
     painter.setOpacity(0.1);
     painter.drawPixmap(0, 0, *pixmapList[0]);
     painter.end();
     */
-    cout<<pixmapList.size()<<endl;
-    cout<<labelList.size()<<endl;
-   // this->swap(0,2);
-    cout<<"prueba 0"<<endl;
+
+
     genRlist();
-    cout<<"prueba 1"<<endl;
+
     miximag();
-    cout<<"prueba 2"<<endl;
+    /*
+    string msj ="play";
+    for(int i=0; i<range;i++){
+        msj = msj + (string)"," + (string)to_string(Rlist[i]);
+    }
 
-
-
-
-
-
+    sThread->sendmsj(msj);
+    */
 }
 
 void MainWindow::swap(int a,int b){
     QPixmap *var = &*pixmapList[a];
 
-
     pixmapList[a] = &*pixmapList[b];
 
     pixmapList[b] = &*var;
-
 
     labelList[a]->setPixmap(*pixmapList[a]);
     labelList[b]->setPixmap(*pixmapList[b]);
@@ -104,11 +105,6 @@ void MainWindow::swap(int a,int b){
     Rlist[a] = Rlist[b];
     Rlist[b] = ivar;
 
-
-
-
-
-
 }
 void MainWindow::miximag(){
 
@@ -116,6 +112,16 @@ void MainWindow::miximag(){
     for(int i = 0 ; i<range ; i++){
         swap(rand() % ( range ),rand() % ( range ));
     }
+
+}
+
+void MainWindow::nextOrder(){
+    this->swap(stoi(SWA),stoi(SWB));
+
+}
+
+void MainWindow::prevOrder(){
+    this->swap(stoi(SWA),stoi(SWB));
 
 }
 
@@ -130,5 +136,17 @@ void MainWindow::on_set_clicked()
 {
     this->row=ui->spinBoxX->value();
     this->col= ui->spinBoxY->value();
+}
+
+
+void MainWindow::on_reset_clicked()
+{
+    this->SWA=to_string(ui->spinBoxX->value());
+    this->SWB= to_string(ui->spinBoxY->value());
+
+    this->nextOrder();
+
+
+
 }
 
