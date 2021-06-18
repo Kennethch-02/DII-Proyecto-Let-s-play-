@@ -3,7 +3,7 @@
 #include <QDebug>
 #include <iostream>
 #include<stdlib.h>
-
+#include <boost/algorithm/string.hpp>
 
 
 
@@ -25,18 +25,30 @@ void Thread::run(){
 
 
         //emit numero(i);
-        string messejeA;
-        string messejeB;
-        string messejeC;
-        messejeA = Servidor->Recibir();
-        messejeB = Servidor->Recibir();
-        messejeC = Servidor->Recibir();
+        string messeje;
+        string splmes;
+
+        messeje = Servidor->Recibir();
+
+        vector<string> Vector;
 
 
 
-        *swapstr= messejeC;
+        split( Vector, messeje, boost::is_any_of(",") );
 
-        emit valswap(*swapstr);
+        for (size_t i = 0; i < Vector.size(); i++){
+            cout << Vector[i] << endl;
+        }
+
+        *SWA = Vector[0];
+        *SWB = Vector[1];
+
+
+
+
+
+
+      //  emit valswap(*swapstr);
 
 
 

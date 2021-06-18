@@ -1,4 +1,4 @@
-# Install script for directory: C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server
+# Install script for directory: C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

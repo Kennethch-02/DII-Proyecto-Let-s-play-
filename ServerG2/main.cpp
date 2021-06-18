@@ -7,12 +7,31 @@
 #include <string>
 #include <windows.h>
 using namespace std;
+
+Server *Servidor = new Server();
+string msj;
+string Rmsj;
+void next();
+void prev();
+void play();
+void define(string);
+
+
+
+
+
+void next(){
+    msj = "0,1";
+}
+
+
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    Server *Servidor = new Server();
 
-    Memory *memoria = new Memory();
+
+  //  Memory *memoria = new Memory();
 
    // Codex *codex  = new Codex();
 
@@ -23,8 +42,7 @@ int main() {
 
 
 
-    string msj = "akn";
-    string Rmsj;
+
 
     while(true) {
         cout << "Esperando mensaje" << endl;
@@ -39,7 +57,11 @@ int main() {
         //
     //    Servidor->CerrarSocket();
     //    if(Rmsj != ""){
-            msj = memoria->insert(Rmsj);
+         //   msj = memoria->insert(Rmsj);
+        if(Rmsj=="next"){
+            next();
+        }
+
 
             cout << msj << endl;
         cout << "Res  mensaje" << endl;

@@ -5,7 +5,7 @@ Server::Server()     {
     WSAStartup(MAKEWORD(2,0), &WSAData);
     server = socket(AF_INET, SOCK_STREAM, 0);
 
-    addr.sin_addr.s_addr = inet_addr("172.28.160.1");
+    addr.sin_addr.s_addr = inet_addr("10.0.0.9");
     addr.sin_family=AF_INET;
     addr.sin_port = htons(5555);
 

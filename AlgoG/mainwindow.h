@@ -41,6 +41,8 @@ private slots:
 
     void on_reset_clicked();
 
+    void on_next_clicked();
+
 private:
     Ui::MainWindow *ui;
     int row;

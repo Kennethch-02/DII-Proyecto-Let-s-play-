@@ -3,6 +3,7 @@
 #include <boost/algorithm/string.hpp>
 #include <cstring>
 
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -12,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 
     sThread = new Thread(this,&swapstr,&SWA,&SWB);
-
+/*
     connect(sThread,&Thread::valswap,[&](string ms){
         if(ms=="next"){
 
@@ -22,6 +23,8 @@ MainWindow::MainWindow(QWidget *parent)
             this->prevOrder();
         }
         });
+
+        */
   /*  connect(sThread,&Thread::valram,ui->Ram,&QTextBrowser::setText);
     connect(sThread,&Thread::valout,ui->Out,&QTextBrowser::setText);
 
@@ -116,6 +119,8 @@ void MainWindow::miximag(){
 }
 
 void MainWindow::nextOrder(){
+    this->sThread->sendmsj("next");
+    this->sThread->start();
     this->swap(stoi(SWA),stoi(SWB));
 
 }
@@ -144,9 +149,15 @@ void MainWindow::on_reset_clicked()
     this->SWA=to_string(ui->spinBoxX->value());
     this->SWB= to_string(ui->spinBoxY->value());
 
-    this->nextOrder();
+    this->prevOrder();
 
 
 
+}
+
+
+void MainWindow::on_next_clicked()
+{
+    nextOrder();
 }
 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Codex.cpp" "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug/CMakeFiles/Server.dir/Codex.cpp.obj"
-  "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Memory.cpp" "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug/CMakeFiles/Server.dir/Memory.cpp.obj"
-  "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Server.cpp" "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug/CMakeFiles/Server.dir/Server.cpp.obj"
-  "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/main.cpp" "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug/CMakeFiles/Server.dir/main.cpp.obj"
+  "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.cpp" "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/cmake-build-debug/CMakeFiles/Server.dir/Codex.cpp.obj"
+  "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Memory.cpp" "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/cmake-build-debug/CMakeFiles/Server.dir/Memory.cpp.obj"
+  "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Server.cpp" "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/cmake-build-debug/CMakeFiles/Server.dir/Server.cpp.obj"
+  "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/main.cpp" "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/cmake-build-debug/CMakeFiles/Server.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0"
+  "C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0"
   )
 
 # Targets to which this target links.

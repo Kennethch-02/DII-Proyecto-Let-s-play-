@@ -1,4 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug DBOOST_ROOT=C:\UNIVERSIDAD\Datos2_2021\Proyecto1\boost_1_76_0 -G "CodeBlocks - NMake Makefiles" C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server
+"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\UNIVERSIDAD\Datos2_2021\Proyecto2\Proyecto-II-Let-s-play-\ServerG2
+-- Found Boost: C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0 (found version "1.76.0")  
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/cmake-build-debug
+-- Build files have been written to: C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/cmake-build-debug

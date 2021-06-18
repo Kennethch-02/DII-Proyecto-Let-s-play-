@@ -3,6 +3,7 @@
 #include <QThread>
 #include <QObject>
 #include <string>
+#include <vector>
 #include "Server.h"
 
 using namespace std;

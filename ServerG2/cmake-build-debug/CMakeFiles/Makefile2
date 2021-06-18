@@ -48,10 +48,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server
+CMAKE_SOURCE_DIR = C:\UNIVERSIDAD\Datos2_2021\Proyecto2\Proyecto-II-Let-s-play-\ServerG2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug
+CMAKE_BINARY_DIR = C:\UNIVERSIDAD\Datos2_2021\Proyecto2\Proyecto-II-Let-s-play-\ServerG2\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -78,14 +78,14 @@ clean: CMakeFiles\Server.dir\clean
 CMakeFiles\Server.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Server.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Server.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\UNIVERSIDAD\Datos2_2021\Proyecto2\Proyecto-II-Let-s-play-\ServerG2\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target Server"
 .PHONY : CMakeFiles\Server.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Server.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\UNIVERSIDAD\Datos2_2021\Proyecto2\Proyecto-II-Let-s-play-\ServerG2\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Server.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\UNIVERSIDAD\Datos2_2021\Proyecto1\Proyecto1Datos2C\Server\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\UNIVERSIDAD\Datos2_2021\Proyecto2\Proyecto-II-Let-s-play-\ServerG2\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Server.dir\rule
 
 # Convenience name for target.

@@ -1,6 +1,7 @@
-//
-// Created by User on 10/5/2021.
-//
+/**
+* \brief Server Rompeca: Algoritmo genetico genetico
+* @param
+*/
 
 #include "Codex.h"
 
