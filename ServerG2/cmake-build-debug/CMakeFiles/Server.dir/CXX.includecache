@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Codex.h
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.h
 string
 -
 boost/algorithm/string.hpp
@@ -18,13 +18,13 @@ vector
 iostream
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Memory.cpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Memory.cpp
 Memory.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Memory.h
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Memory.h
 Codex.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Codex.h
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.h
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Memory.h
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Memory.h
 iostream
 -
 vector
@@ -32,7 +32,7 @@ vector
 boost/algorithm/string.hpp
 -
 Codex.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Codex.h
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.h
 sstream
 -
 iostream
@@ -40,33 +40,7 @@ iostream
 stdlib.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Server.h
-iostream
--
-string
--
-winsock2.h
--
-sstream
--
-
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/main.cpp
-iostream
--
-Server.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Server.h
-Codex.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Codex.h
-Memory
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Memory
-Memory.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/Proyecto1Datos2C/Server/Memory.h
-string
--
-windows.h
--
-
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string.hpp
 boost/algorithm/string/std_containers_traits.hpp
 -
 boost/algorithm/string/trim.hpp
@@ -90,7 +64,7 @@ boost/algorithm/string/classification.hpp
 boost/algorithm/string/find_iterator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/case_conv.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/case_conv.hpp
 boost/algorithm/string/config.hpp
 -
 algorithm
@@ -110,7 +84,7 @@ boost/range/value_type.hpp
 boost/algorithm/string/detail/case_conv.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/classification.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/classification.hpp
 algorithm
 -
 locale
@@ -124,13 +98,13 @@ boost/algorithm/string/detail/classification.hpp
 boost/algorithm/string/predicate_facade.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/compare.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/compare.hpp
 boost/algorithm/string/config.hpp
 -
 locale
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/concept.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/concept.hpp
 boost/concept_check.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -140,15 +114,15 @@ boost/range/begin.hpp
 boost/range/end.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/config.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/constants.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/constants.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/case_conv.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/case_conv.hpp
 boost/algorithm/string/config.hpp
 -
 locale
@@ -164,7 +138,7 @@ boost/range/end.hpp
 boost/type_traits/make_unsigned.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/classification.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/classification.hpp
 boost/algorithm/string/config.hpp
 -
 algorithm
@@ -186,7 +160,7 @@ boost/algorithm/string/predicate_facade.hpp
 boost/type_traits/remove_const.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/find_format.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/find_format.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -200,7 +174,7 @@ boost/algorithm/string/detail/find_format_store.hpp
 boost/algorithm/string/detail/replace_storage.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/find_format_all.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/find_format_all.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -216,13 +190,13 @@ boost/algorithm/string/detail/replace_storage.hpp
 deque
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/find_format_store.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/find_format_store.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/iterator_range_core.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/find_iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/find_iterator.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -234,7 +208,7 @@ boost/iterator/iterator_categories.hpp
 boost/function.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/finder.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/finder.hpp
 boost/algorithm/string/config.hpp
 -
 boost/algorithm/string/constants.hpp
@@ -252,7 +226,7 @@ boost/range/empty.hpp
 boost/range/as_literal.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/formatter.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/formatter.hpp
 boost/range/iterator_range_core.hpp
 -
 boost/range/begin.hpp
@@ -264,13 +238,13 @@ boost/range/const_iterator.hpp
 boost/algorithm/string/detail/util.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/predicate.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/predicate.hpp
 iterator
 -
 boost/algorithm/string/find.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/replace_storage.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/replace_storage.hpp
 boost/algorithm/string/config.hpp
 -
 algorithm
@@ -282,7 +256,7 @@ boost/algorithm/string/sequence_traits.hpp
 boost/algorithm/string/detail/sequence.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/sequence.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/sequence.hpp
 boost/algorithm/string/config.hpp
 -
 boost/mpl/bool.hpp
@@ -296,13 +270,13 @@ boost/range/end.hpp
 boost/algorithm/string/sequence_traits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/trim.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/trim.hpp
 boost/algorithm/string/config.hpp
 -
 iterator
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/detail/util.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/detail/util.hpp
 boost/algorithm/string/config.hpp
 -
 functional
@@ -310,7 +284,7 @@ functional
 boost/range/iterator_range_core.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/erase.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/erase.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -330,7 +304,7 @@ boost/algorithm/string/finder.hpp
 boost/algorithm/string/formatter.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/find.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/find.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -350,7 +324,7 @@ boost/algorithm/string/compare.hpp
 boost/algorithm/string/constants.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/find_format.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/find_format.hpp
 deque
 -
 boost/range/iterator_range_core.hpp
@@ -370,7 +344,7 @@ boost/algorithm/string/detail/find_format.hpp
 boost/algorithm/string/detail/find_format_all.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/find_iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/find_iterator.hpp
 boost/algorithm/string/config.hpp
 -
 boost/iterator/iterator_facade.hpp
@@ -390,7 +364,7 @@ boost/range/as_literal.hpp
 boost/algorithm/string/detail/find_iterator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/finder.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/finder.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -410,7 +384,7 @@ boost/algorithm/string/detail/finder.hpp
 boost/algorithm/string/compare.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/formatter.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/formatter.hpp
 boost/range/value_type.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -420,7 +394,7 @@ boost/range/as_literal.hpp
 boost/algorithm/string/detail/formatter.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/iter_find.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/iter_find.hpp
 boost/algorithm/string/config.hpp
 -
 algorithm
@@ -448,7 +422,7 @@ boost/algorithm/string/find_iterator.hpp
 boost/algorithm/string/detail/util.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/join.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/join.hpp
 boost/algorithm/string/config.hpp
 -
 boost/algorithm/string/detail/sequence.hpp
@@ -458,7 +432,7 @@ boost/range/value_type.hpp
 boost/range/as_literal.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/predicate.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/predicate.hpp
 iterator
 -
 boost/algorithm/string/config.hpp
@@ -482,11 +456,11 @@ boost/algorithm/string/find.hpp
 boost/algorithm/string/detail/predicate.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/predicate_facade.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/predicate_facade.hpp
 boost/algorithm/string/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/replace.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/replace.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/iterator_range_core.hpp
@@ -508,7 +482,7 @@ boost/algorithm/string/formatter.hpp
 boost/algorithm/string/compare.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/sequence_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/sequence_traits.hpp
 boost/config.hpp
 -
 boost/mpl/bool.hpp
@@ -516,7 +490,7 @@ boost/mpl/bool.hpp
 boost/algorithm/string/yes_no_type.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/split.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/split.hpp
 boost/algorithm/string/config.hpp
 -
 boost/algorithm/string/iter_find.hpp
@@ -526,7 +500,7 @@ boost/algorithm/string/finder.hpp
 boost/algorithm/string/compare.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/std/list_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/std/list_traits.hpp
 boost/algorithm/string/yes_no_type.hpp
 -
 list
@@ -534,7 +508,7 @@ list
 boost/algorithm/string/sequence_traits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/std/slist_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/std/slist_traits.hpp
 boost/algorithm/string/config.hpp
 -
 boost/algorithm/string/yes_no_type.hpp
@@ -542,7 +516,7 @@ boost/algorithm/string/yes_no_type.hpp
 boost/algorithm/string/sequence_traits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/std/string_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/std/string_traits.hpp
 boost/algorithm/string/yes_no_type.hpp
 -
 string
@@ -550,7 +524,7 @@ string
 boost/algorithm/string/sequence_traits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/std_containers_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/std_containers_traits.hpp
 boost/config.hpp
 -
 boost/algorithm/string/std/string_traits.hpp
@@ -560,7 +534,7 @@ boost/algorithm/string/std/list_traits.hpp
 boost/algorithm/string/std/slist_traits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/trim.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/trim.hpp
 boost/algorithm/string/config.hpp
 -
 boost/range/begin.hpp
@@ -580,9 +554,9 @@ boost/algorithm/string/classification.hpp
 locale
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/algorithm/string/yes_no_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string/yes_no_type.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/assert.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/assert.hpp
 boost/config.hpp
 -
 boost/current_function.hpp
@@ -590,7 +564,7 @@ boost/current_function.hpp
 assert.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/assert/source_location.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/assert/source_location.hpp
 boost/current_function.hpp
 -
 boost/config.hpp
@@ -600,7 +574,7 @@ boost/cstdint.hpp
 iosfwd
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/bind/mem_fn.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/bind/mem_fn.hpp
 boost/config.hpp
 -
 boost/get_pointer.hpp
@@ -650,13 +624,13 @@ boost/bind/mem_fn_cc.hpp
 boost/bind/mem_fn_cc.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/bind/mem_fn_cc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/bind/mem_fn_cc.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/bind/mem_fn_template.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/bind/mem_fn_template.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/bind/mem_fn_vw.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/bind/mem_fn_vw.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/assert.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/assert.hpp
 boost/config.hpp
 -
 boost/config/workaround.hpp
@@ -668,15 +642,15 @@ boost/concept/detail/borland.hpp
 boost/concept/detail/general.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/detail/backward_compatibility.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/detail/backward_compatibility.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/detail/borland.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/detail/borland.hpp
 boost/preprocessor/cat.hpp
 -
 boost/concept/detail/backward_compatibility.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/detail/concept_def.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/detail/concept_def.hpp
 boost/preprocessor/seq/for_each_i.hpp
 -
 boost/preprocessor/seq/enum.hpp
@@ -686,9 +660,9 @@ boost/preprocessor/comma_if.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/detail/concept_undef.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/detail/concept_undef.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/detail/general.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/detail/general.hpp
 boost/config.hpp
 -
 boost/preprocessor/cat.hpp
@@ -700,7 +674,7 @@ boost/concept/detail/has_constraints.hpp
 boost/type_traits/conditional.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/detail/has_constraints.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/detail/has_constraints.hpp
 boost/type_traits/integral_constant.hpp
 -
 boost/config/workaround.hpp
@@ -708,7 +682,7 @@ boost/config/workaround.hpp
 boost/concept/detail/backward_compatibility.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/detail/msvc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/detail/msvc.hpp
 boost/preprocessor/cat.hpp
 -
 boost/concept/detail/backward_compatibility.hpp
@@ -720,7 +694,7 @@ boost/concept/detail/has_constraints.hpp
 boost/type_traits/conditional.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept/usage.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept/usage.hpp
 boost/concept/assert.hpp
 -
 boost/config/workaround.hpp
@@ -728,7 +702,7 @@ boost/config/workaround.hpp
 boost/concept/detail/backward_compatibility.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/concept_check.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/concept_check.hpp
 boost/concept/assert.hpp
 -
 iterator
@@ -754,7 +728,7 @@ boost/concept/detail/concept_def.hpp
 boost/concept/detail/concept_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config.hpp
 boost/config/user.hpp
 -
 boost/config/detail/select_compiler_config.hpp
@@ -766,7 +740,7 @@ boost/config/detail/select_platform_config.hpp
 boost/config/detail/suffix.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/borland.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/borland.hpp
 climits
 -
 cwchar
@@ -782,51 +756,51 @@ errno.h
 float.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/clang.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/clang.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/codegear.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/codegear.hpp
 clang.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/clang.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/clang.hpp
 cstring
 -
 errno.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/comeau.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/comeau.hpp
 boost/config/compiler/common_edg.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/common_edg.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/common_edg.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/compaq_cxx.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/compaq_cxx.hpp
 boost/config/compiler/common_edg.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/cray.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/cray.hpp
 boost/config/compiler/common_edg.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/digitalmars.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/digitalmars.hpp
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/gcc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/gcc.hpp
 cstddef
 -
 stddef.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/gcc_xml.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/gcc_xml.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/greenhills.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/greenhills.hpp
 boost/config/compiler/common_edg.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/hp_acc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/hp_acc.hpp
 boost/config/compiler/common_edg.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/intel.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/intel.hpp
 boost/config/compiler/visualc.hpp
 -
 boost/config/compiler/gcc.hpp
@@ -836,51 +810,51 @@ boost/config/compiler/common_edg.hpp
 cwchar
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/kai.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/kai.hpp
 boost/config/compiler/common_edg.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/metrowerks.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/metrowerks.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/mpw.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/mpw.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/nvcc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/nvcc.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/pathscale.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/pathscale.hpp
 boost/config/compiler/clang.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/boost/config/compiler/clang.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/boost/config/compiler/clang.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/pgi.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/pgi.hpp
 boost/config/compiler/gcc.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/sgi_mipspro.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/sgi_mipspro.hpp
 boost/config/compiler/common_edg.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/sunpro_cc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/sunpro_cc.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/vacpp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/vacpp.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/visualc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/visualc.hpp
 boost/config/pragma_message.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/xlcpp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/xlcpp.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/compiler/xlcpp_zos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/compiler/xlcpp_zos.hpp
 features.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/cxx_composite.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/cxx_composite.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/posix_features.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/posix_features.hpp
 unistd.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/select_compiler_config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/select_compiler_config.hpp
 boost/config/compiler/nvcc.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/compiler/nvcc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/compiler/nvcc.hpp
 boost/config/compiler/gcc_xml.hpp
 -
 boost/config/compiler/cray.hpp
@@ -928,47 +902,47 @@ boost/config/compiler/pgi.hpp
 boost/config/compiler/visualc.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/select_platform_config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/select_platform_config.hpp
 boost/config/detail/posix_features.hpp
 -
 boost/config/platform/linux.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/linux.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/linux.hpp
 boost/config/platform/bsd.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/bsd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/bsd.hpp
 boost/config/platform/solaris.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/solaris.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/solaris.hpp
 boost/config/platform/irix.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/irix.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/irix.hpp
 boost/config/platform/hpux.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/hpux.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/hpux.hpp
 boost/config/platform/cygwin.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/cygwin.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/cygwin.hpp
 boost/config/platform/win32.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/win32.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/win32.hpp
 boost/config/platform/beos.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/beos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/beos.hpp
 boost/config/platform/macos.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/macos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/macos.hpp
 boost/config/platform/zos.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/zos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/zos.hpp
 boost/config/platform/aix.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/aix.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/aix.hpp
 boost/config/platform/amigaos.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/amigaos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/amigaos.hpp
 boost/config/platform/qnxnto.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/qnxnto.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/qnxnto.hpp
 boost/config/platform/vxworks.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/vxworks.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/vxworks.hpp
 boost/config/platform/symbian.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/symbian.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/symbian.hpp
 boost/config/platform/cray.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/cray.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/cray.hpp
 boost/config/platform/vms.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/platform/vms.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/platform/vms.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/select_stdlib_config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/select_stdlib_config.hpp
 version
 -
 cstddef
@@ -980,29 +954,29 @@ stddef.h
 utility
 -
 boost/config/stdlib/stlport.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/stlport.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/stlport.hpp
 boost/config/stdlib/libcomo.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/libcomo.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/libcomo.hpp
 boost/config/stdlib/roguewave.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/roguewave.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/roguewave.hpp
 boost/config/stdlib/libcpp.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/libcpp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/libcpp.hpp
 boost/config/stdlib/libstdcpp3.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/libstdcpp3.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/libstdcpp3.hpp
 boost/config/stdlib/sgi.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/sgi.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/sgi.hpp
 boost/config/stdlib/msl.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/msl.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/msl.hpp
 boost/config/stdlib/xlcpp_zos.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/xlcpp_zos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/xlcpp_zos.hpp
 boost/config/stdlib/vacpp.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/vacpp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/vacpp.hpp
 boost/config/stdlib/modena.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/modena.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/modena.hpp
 boost/config/stdlib/dinkumware.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/boost/config/stdlib/dinkumware.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/boost/config/stdlib/dinkumware.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/detail/suffix.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/detail/suffix.hpp
 limits.h
 -
 cstddef
@@ -1014,43 +988,43 @@ boost/config/helper_macros.hpp
 boost/config/detail/cxx_composite.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/helper_macros.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/helper_macros.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/no_tr1/cmath.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/no_tr1/cmath.hpp
 cmath
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/no_tr1/functional.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/no_tr1/functional.hpp
 functional
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/no_tr1/memory.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/no_tr1/memory.hpp
 memory
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/no_tr1/utility.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/no_tr1/utility.hpp
 utility
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/aix.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/aix.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/amigaos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/amigaos.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/beos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/beos.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/bsd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/bsd.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/cray.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/cray.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/cygwin.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/cygwin.hpp
 unistd.h
 -
 sys/types.h
@@ -1062,15 +1036,15 @@ pthread.h
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/hpux.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/hpux.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/irix.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/irix.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/linux.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/linux.hpp
 cstdlib
 -
 stdlib.h
@@ -1078,19 +1052,19 @@ stdlib.h
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/macos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/macos.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/qnxnto.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/qnxnto.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/solaris.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/solaris.hpp
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/symbian.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/symbian.hpp
 cstdlib
 -
 stdlib.h
@@ -1100,9 +1074,9 @@ boost/config/detail/posix_features.hpp
 sys/endian.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/vms.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/vms.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/vxworks.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/vxworks.hpp
 version.h
 -
 time.h
@@ -1122,19 +1096,19 @@ signal.h
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/win32.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/win32.hpp
 _mingw.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/platform/zos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/platform/zos.hpp
 features.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/pragma_message.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/pragma_message.hpp
 boost/config/helper_macros.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/dinkumware.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/dinkumware.hpp
 boost/config/no_tr1/utility.hpp
 -
 exception
@@ -1142,23 +1116,23 @@ exception
 typeinfo
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/libcomo.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/libcomo.hpp
 boost/config/no_tr1/utility.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/libcpp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/libcpp.hpp
 ciso646
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/libstdcpp3.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/libstdcpp3.hpp
 unistd.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/modena.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/modena.hpp
 boost/config/no_tr1/utility.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/msl.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/msl.hpp
 boost/config/no_tr1/utility.hpp
 -
 cstddef
@@ -1166,11 +1140,11 @@ cstddef
 boost/config/detail/posix_features.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/roguewave.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/roguewave.hpp
 boost/config/no_tr1/utility.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/sgi.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/sgi.hpp
 boost/config/no_tr1/utility.hpp
 -
 unistd.h
@@ -1178,7 +1152,7 @@ unistd.h
 string
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/stlport.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/stlport.hpp
 cstddef
 -
 unistd.h
@@ -1190,25 +1164,25 @@ string.h
 algorithm
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/vacpp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/vacpp.hpp
 unistd.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/stdlib/xlcpp_zos.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/stdlib/xlcpp_zos.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/user.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/user.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/config/workaround.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/config/workaround.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/container_hash/detail/float_functions.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/container_hash/detail/float_functions.hpp
 boost/config.hpp
 -
 boost/config/no_tr1/cmath.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/container_hash/detail/hash_float.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/container_hash/detail/hash_float.hpp
 boost/config.hpp
 -
 boost/container_hash/detail/float_functions.hpp
@@ -1230,7 +1204,7 @@ cstring
 boost/config/no_tr1/cmath.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/container_hash/detail/limits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/container_hash/detail/limits.hpp
 boost/config.hpp
 -
 boost/limits.hpp
@@ -1238,7 +1212,7 @@ boost/limits.hpp
 float.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/container_hash/extensions.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/container_hash/extensions.hpp
 boost/config.hpp
 -
 boost/container_hash/hash.hpp
@@ -1258,7 +1232,7 @@ memory
 boost/type_traits/is_array.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/container_hash/hash.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/container_hash/hash.hpp
 boost/container_hash/hash_fwd.hpp
 -
 functional
@@ -1294,13 +1268,13 @@ variant
 boost/container_hash/extensions.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/container_hash/hash_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/container_hash/hash_fwd.hpp
 boost/config/workaround.hpp
 -
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/addressof.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/addressof.hpp
 boost/config.hpp
 -
 boost/config/workaround.hpp
@@ -1308,11 +1282,11 @@ boost/config/workaround.hpp
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/checked_delete.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/checked_delete.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/demangle.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/demangle.hpp
 boost/config.hpp
 -
 string
@@ -1324,21 +1298,21 @@ cstdlib
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/enable_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/enable_if.hpp
 boost/config.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/boost/config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/boost/config.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/no_exceptions_support.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/no_exceptions_support.hpp
 boost/config.hpp
 -
 boost/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/noncopyable.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/noncopyable.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/ref.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/ref.hpp
 boost/config.hpp
 -
 boost/config/workaround.hpp
@@ -1348,9 +1322,9 @@ boost/core/addressof.hpp
 boost/core/enable_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/core/use_default.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/core/use_default.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/cstdint.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/cstdint.hpp
 boost/config.hpp
 -
 inttypes.h
@@ -1370,9 +1344,9 @@ stddef.h
 limits.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/current_function.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/current_function.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/detail/container_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/detail/container_fwd.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -1400,7 +1374,7 @@ deque
 bitset
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/detail/indirect_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/detail/indirect_traits.hpp
 boost/type_traits/integral_constant.hpp
 -
 boost/type_traits/is_function.hpp
@@ -1430,19 +1404,19 @@ boost/detail/workaround.hpp
 boost/detail/select_type.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/detail/select_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/detail/select_type.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/detail/workaround.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/detail/workaround.hpp
 boost/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/exception/exception.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/exception/exception.hpp
 boost/config.hpp
 -
 memory
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function.hpp
 functional
 -
 boost/preprocessor/iterate.hpp
@@ -1474,7 +1448,7 @@ boost/function/function9.hpp
 boost/function/function10.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/detail/maybe_include.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/detail/maybe_include.hpp
 boost/function/function_template.hpp
 -
 boost/function/function_template.hpp
@@ -1578,7 +1552,7 @@ boost/function/function_template.hpp
 boost/function/function_template.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/detail/prologue.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/detail/prologue.hpp
 cassert
 -
 algorithm
@@ -1608,51 +1582,51 @@ boost/preprocessor/inc.hpp
 boost/type_traits/is_void.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function0.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function0.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function1.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function1.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function10.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function10.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function2.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function2.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function3.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function3.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function4.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function4.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function5.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function5.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function6.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function6.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function7.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function7.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function8.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function8.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function9.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function9.hpp
 boost/function/detail/maybe_include.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function_base.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function_base.hpp
 stdexcept
 -
 string
@@ -1698,25 +1672,25 @@ boost/function_equal.hpp
 boost/function/function_fwd.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function_fwd.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function/function_template.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function/function_template.hpp
 boost/function/detail/prologue.hpp
 -
 boost/core/no_exceptions_support.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/function_equal.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/function_equal.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/get_pointer.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/get_pointer.hpp
 boost/config.hpp
 -
 boost/config/no_tr1/memory.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/integer.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/integer.hpp
 boost/integer_fwd.hpp
 -
 boost/integer_traits.hpp
@@ -1728,13 +1702,13 @@ boost/cstdint.hpp
 boost/static_assert.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/integer/static_log2.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/integer/static_log2.hpp
 boost/config.hpp
 -
 boost/integer_fwd.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/integer_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/integer_fwd.hpp
 climits
 -
 cstddef
@@ -1746,7 +1720,7 @@ boost/limits.hpp
 boost/cstdint.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/integer_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/integer_traits.hpp
 boost/config.hpp
 -
 boost/limits.hpp
@@ -1756,13 +1730,13 @@ limits.h
 wchar.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/advance.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/advance.hpp
 boost/config.hpp
 -
 boost/iterator/iterator_categories.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/detail/config_def.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/detail/config_def.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -1770,9 +1744,9 @@ boost/detail/workaround.hpp
 boost/type_traits/is_convertible.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/detail/config_undef.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/detail/config_undef.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/detail/enable_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/detail/enable_if.hpp
 boost/detail/workaround.hpp
 -
 boost/mpl/identity.hpp
@@ -1782,7 +1756,7 @@ boost/iterator/detail/config_def.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/detail/facade_iterator_category.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/detail/facade_iterator_category.hpp
 boost/core/use_default.hpp
 -
 boost/iterator/iterator_categories.hpp
@@ -1816,7 +1790,7 @@ boost/detail/indirect_traits.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/distance.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/distance.hpp
 boost/config.hpp
 -
 boost/iterator/iterator_categories.hpp
@@ -1824,7 +1798,7 @@ boost/iterator/iterator_categories.hpp
 boost/iterator/iterator_traits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/interoperable.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/interoperable.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/or.hpp
@@ -1836,7 +1810,7 @@ boost/iterator/detail/config_def.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/iterator_adaptor.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/iterator_adaptor.hpp
 boost/static_assert.hpp
 -
 boost/core/use_default.hpp
@@ -1868,7 +1842,7 @@ boost/iterator/iterator_traits.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/iterator_categories.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/iterator_categories.hpp
 boost/config.hpp
 -
 boost/iterator/detail/config_def.hpp
@@ -1892,7 +1866,7 @@ iterator
 boost/iterator/detail/config_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/iterator_concepts.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/iterator_concepts.hpp
 boost/concept_check.hpp
 -
 boost/iterator/iterator_categories.hpp
@@ -1924,7 +1898,7 @@ boost/concept/detail/concept_def.hpp
 boost/concept/detail/concept_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/iterator_facade.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/iterator_facade.hpp
 boost/config.hpp
 -
 boost/iterator/interoperable.hpp
@@ -1980,17 +1954,17 @@ boost/iterator/detail/config_def.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/iterator_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/iterator_traits.hpp
 boost/detail/workaround.hpp
 -
 iterator
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/reverse_iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/reverse_iterator.hpp
 boost/iterator/iterator_adaptor.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/iterator/transform_iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/iterator/transform_iterator.hpp
 boost/iterator/detail/enable_if.hpp
 -
 boost/iterator/iterator_adaptor.hpp
@@ -2026,7 +2000,7 @@ boost/iterator/detail/config_def.hpp
 boost/iterator/detail/config_undef.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/limits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/limits.hpp
 boost/config.hpp
 -
 limits
@@ -2034,11 +2008,11 @@ limits
 climits
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mem_fn.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mem_fn.hpp
 boost/bind/mem_fn.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/always.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/always.hpp
 boost/mpl/aux_/preprocessor/default_params.hpp
 -
 boost/mpl/aux_/na.hpp
@@ -2046,7 +2020,7 @@ boost/mpl/aux_/na.hpp
 boost/mpl/aux_/arity_spec.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/and.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/and.hpp
 boost/mpl/aux_/config/use_preprocessed.hpp
 -
 boost/mpl/bool.hpp
@@ -2062,7 +2036,7 @@ boost/mpl/aux_/include_preprocessed.hpp
 boost/mpl/aux_/logical_op.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/apply.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/apply.hpp
 boost/mpl/apply_fwd.hpp
 -
 boost/mpl/apply_wrap.hpp
@@ -2112,7 +2086,7 @@ boost/preprocessor/cat.hpp
 boost/mpl/aux_/count_args.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/apply_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/apply_fwd.hpp
 boost/mpl/aux_/na.hpp
 -
 boost/mpl/aux_/config/use_preprocessed.hpp
@@ -2136,7 +2110,7 @@ boost/preprocessor/iterate.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/apply_wrap.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/apply_wrap.hpp
 boost/mpl/aux_/arity.hpp
 -
 boost/mpl/aux_/has_apply.hpp
@@ -2180,7 +2154,7 @@ boost/preprocessor/iterate.hpp
 boost/mpl/aux_/msvc_dtw.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/arg.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/arg.hpp
 boost/mpl/arg_fwd.hpp
 -
 boost/mpl/aux_/na.hpp
@@ -2216,13 +2190,13 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/arg_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/arg_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 boost/mpl/aux_/nttp_decl.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/assert.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/assert.hpp
 boost/mpl/not.hpp
 -
 boost/mpl/aux_/value_wknd.hpp
@@ -2262,7 +2236,7 @@ boost/mpl/if.hpp
 boost/static_assert.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/adl_barrier.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/adl_barrier.hpp
 boost/mpl/aux_/config/adl.hpp
 -
 boost/mpl/aux_/config/gcc.hpp
@@ -2270,13 +2244,13 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/arg_typedef.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/arg_typedef.hpp
 boost/mpl/aux_/config/lambda.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/arity.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/arity.hpp
 boost/mpl/aux_/config/dtp.hpp
 -
 boost/mpl/aux_/nttp_decl.hpp
@@ -2284,7 +2258,7 @@ boost/mpl/aux_/nttp_decl.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/arity_spec.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/arity_spec.hpp
 boost/mpl/int.hpp
 -
 boost/mpl/limits/arity.hpp
@@ -2304,11 +2278,11 @@ boost/mpl/aux_/config/lambda.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/common_name_wknd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/common_name_wknd.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/adl.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/adl.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/intel.hpp
@@ -2318,23 +2292,23 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/arrays.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/arrays.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/bcc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/bcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/bind.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/bind.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/compiler.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/compiler.hpp
 boost/mpl/aux_/config/dtp.hpp
 -
 boost/mpl/aux_/config/ttp.hpp
@@ -2348,33 +2322,33 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/ctps.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/ctps.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/dmc_ambiguous_ctps.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/dmc_ambiguous_ctps.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/dtp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/dtp.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/eti.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/eti.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/gcc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/gcc.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/gpu.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/gpu.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/has_apply.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/has_apply.hpp
 boost/mpl/aux_/config/has_xxx.hpp
 -
 boost/mpl/aux_/config/msvc.hpp
@@ -2382,61 +2356,61 @@ boost/mpl/aux_/config/msvc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/has_xxx.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/has_xxx.hpp
 boost/mpl/aux_/config/overload_resolution.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/integral.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/integral.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/intel.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/intel.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/lambda.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/lambda.hpp
 boost/mpl/aux_/config/ttp.hpp
 -
 boost/mpl/aux_/config/ctps.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/msvc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/msvc.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/msvc_typename.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/msvc_typename.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/nttp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/nttp.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/overload_resolution.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/overload_resolution.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/pp_counter.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/pp_counter.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/preprocessor.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/preprocessor.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/static_constant.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/static_constant.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/ttp.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/ttp.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/gcc.hpp
@@ -2444,13 +2418,13 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/use_preprocessed.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/use_preprocessed.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/config/workaround.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/config/workaround.hpp
 boost/detail/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/count_args.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/count_args.hpp
 boost/preprocessor/expr_if.hpp
 -
 boost/preprocessor/inc.hpp
@@ -2468,7 +2442,7 @@ boost/preprocessor/repeat.hpp
 boost/preprocessor/inc.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/full_lambda.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/full_lambda.hpp
 boost/mpl/lambda_fwd.hpp
 -
 boost/mpl/bind_fwd.hpp
@@ -2518,13 +2492,13 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/has_apply.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/has_apply.hpp
 boost/mpl/has_xxx.hpp
 -
 boost/mpl/aux_/config/has_apply.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/has_rebind.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/has_rebind.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/intel.hpp
@@ -2558,11 +2532,11 @@ boost/mpl/aux_/yes_no.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/has_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/has_type.hpp
 boost/mpl/has_xxx.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/include_preprocessed.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/include_preprocessed.hpp
 boost/mpl/aux_/config/compiler.hpp
 -
 boost/mpl/aux_/config/preprocessor.hpp
@@ -2574,7 +2548,7 @@ boost/preprocessor/cat.hpp
 boost/preprocessor/stringize.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/integral_wrapper.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/integral_wrapper.hpp
 boost/mpl/integral_c_tag.hpp
 -
 boost/mpl/aux_/static_cast.hpp
@@ -2588,11 +2562,11 @@ boost/mpl/aux_/config/workaround.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/lambda_arity_param.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/lambda_arity_param.hpp
 boost/mpl/aux_/config/ttp.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/lambda_no_ctps.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/lambda_no_ctps.hpp
 boost/mpl/lambda_fwd.hpp
 -
 boost/mpl/bind_fwd.hpp
@@ -2642,7 +2616,7 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/lambda_support.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/lambda_support.hpp
 boost/mpl/aux_/config/lambda.hpp
 -
 boost/mpl/int_fwd.hpp
@@ -2668,7 +2642,7 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/logical_op.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/logical_op.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/aux_/nested_type_wknd.hpp
@@ -2700,11 +2674,11 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/msvc_dtw.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/msvc_dtw.hpp
 boost/mpl/aux_/preprocessor/params.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/msvc_is_class.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/msvc_is_class.hpp
 boost/mpl/if.hpp
 -
 boost/mpl/bool.hpp
@@ -2716,13 +2690,13 @@ boost/mpl/aux_/yes_no.hpp
 boost/type_traits/is_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/msvc_never_true.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/msvc_never_true.hpp
 boost/mpl/aux_/config/msvc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/na.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/na.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/aux_/na_fwd.hpp
@@ -2732,7 +2706,7 @@ boost/mpl/aux_/config/msvc.hpp
 boost/mpl/aux_/config/ctps.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/na_assert.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/na_assert.hpp
 boost/mpl/aux_/na.hpp
 -
 boost/mpl/aux_/config/msvc.hpp
@@ -2744,11 +2718,11 @@ boost/mpl/assert.hpp
 boost/static_assert.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/na_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/na_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/na_spec.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/na_spec.hpp
 boost/mpl/lambda_fwd.hpp
 -
 boost/mpl/int.hpp
@@ -2782,19 +2756,19 @@ boost/mpl/aux_/config/lambda.hpp
 boost/mpl/aux_/config/overload_resolution.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/nested_type_wknd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/nested_type_wknd.hpp
 boost/mpl/aux_/config/gcc.hpp
 -
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/nttp_decl.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/nttp_decl.hpp
 boost/mpl/aux_/config/nttp.hpp
 -
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/add.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/add.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/mpl/aux_/preprocessor/tuple.hpp
@@ -2804,7 +2778,7 @@ boost/preprocessor/cat.hpp
 boost/preprocessor/arithmetic/add.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/def_params_tail.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/def_params_tail.hpp
 boost/mpl/limits/arity.hpp
 -
 boost/mpl/aux_/config/dtp.hpp
@@ -2836,7 +2810,7 @@ boost/preprocessor/repeat.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/default_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/default_params.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/preprocessor/cat.hpp
@@ -2852,7 +2826,7 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/enum.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/enum.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/preprocessor/cat.hpp
@@ -2862,7 +2836,7 @@ boost/preprocessor/comma_if.hpp
 boost/preprocessor/repeat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/ext_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/ext_params.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/mpl/aux_/preprocessor/filter_params.hpp
@@ -2882,9 +2856,9 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/filter_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/filter_params.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/params.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/preprocessor/cat.hpp
@@ -2898,7 +2872,7 @@ boost/preprocessor/inc.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/partial_spec_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/partial_spec_params.hpp
 boost/mpl/limits/arity.hpp
 -
 boost/mpl/aux_/preprocessor/params.hpp
@@ -2910,7 +2884,7 @@ boost/mpl/aux_/preprocessor/sub.hpp
 boost/preprocessor/comma_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/range.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/range.hpp
 boost/preprocessor/seq/subseq.hpp
 -
 boost/preprocessor/repetition/repeat.hpp
@@ -2918,7 +2892,7 @@ boost/preprocessor/repetition/repeat.hpp
 boost/preprocessor/arithmetic/add.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/repeat.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/repeat.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/preprocessor/cat.hpp
@@ -2926,7 +2900,7 @@ boost/preprocessor/cat.hpp
 boost/preprocessor/repeat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/sub.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/sub.hpp
 boost/mpl/aux_/config/preprocessor.hpp
 -
 boost/mpl/aux_/preprocessor/tuple.hpp
@@ -2936,13 +2910,13 @@ boost/preprocessor/cat.hpp
 boost/preprocessor/arithmetic/sub.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/preprocessor/tuple.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/preprocessor/tuple.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/static_cast.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/static_cast.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/template_arity.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/template_arity.hpp
 boost/mpl/aux_/config/ttp.hpp
 -
 boost/mpl/aux_/config/lambda.hpp
@@ -2984,13 +2958,13 @@ boost/preprocessor/cat.hpp
 boost/mpl/aux_/config/eti.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/template_arity_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/template_arity_fwd.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/type_wrapper.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/type_wrapper.hpp
 boost/mpl/aux_/config/ctps.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/value_wknd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/value_wknd.hpp
 boost/mpl/aux_/static_cast.hpp
 -
 boost/mpl/aux_/config/integral.hpp
@@ -3002,7 +2976,7 @@ boost/mpl/aux_/config/workaround.hpp
 boost/mpl/int.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/aux_/yes_no.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/aux_/yes_no.hpp
 boost/mpl/aux_/nttp_decl.hpp
 -
 boost/mpl/aux_/config/arrays.hpp
@@ -3012,7 +2986,7 @@ boost/mpl/aux_/config/msvc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/bind.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/bind.hpp
 boost/mpl/bind_fwd.hpp
 -
 boost/mpl/placeholders.hpp
@@ -3080,7 +3054,7 @@ boost/preprocessor/inc.hpp
 boost/mpl/aux_/count_args.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/bind_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/bind_fwd.hpp
 boost/mpl/aux_/na.hpp
 -
 boost/mpl/aux_/config/bind.hpp
@@ -3104,7 +3078,7 @@ boost/preprocessor/iterate.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/bool.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/bool.hpp
 boost/mpl/bool_fwd.hpp
 -
 boost/mpl/integral_c_tag.hpp
@@ -3112,11 +3086,11 @@ boost/mpl/integral_c_tag.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/bool_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/bool_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/eval_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/eval_if.hpp
 boost/mpl/if.hpp
 -
 boost/mpl/aux_/na_spec.hpp
@@ -3130,7 +3104,7 @@ boost/mpl/aux_/config/gcc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/has_xxx.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/has_xxx.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/aux_/na_spec.hpp
@@ -3168,13 +3142,13 @@ boost/mpl/if.hpp
 boost/mpl/bool.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/identity.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/identity.hpp
 boost/mpl/aux_/na_spec.hpp
 -
 boost/mpl/aux_/lambda_support.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/if.hpp
 boost/mpl/aux_/value_wknd.hpp
 -
 boost/mpl/aux_/static_cast.hpp
@@ -3190,25 +3164,25 @@ boost/mpl/aux_/config/ctps.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/int.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/int.hpp
 boost/mpl/int_fwd.hpp
 -
 boost/mpl/aux_/integral_wrapper.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/int_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/int_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 boost/mpl/aux_/nttp_decl.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/integral_c_tag.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/integral_c_tag.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/is_placeholder.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/is_placeholder.hpp
 boost/mpl/arg_fwd.hpp
 -
 boost/mpl/bool.hpp
@@ -3224,7 +3198,7 @@ boost/mpl/aux_/config/ctps.hpp
 boost/mpl/aux_/config/static_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/lambda.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/lambda.hpp
 boost/mpl/lambda_fwd.hpp
 -
 boost/mpl/bind.hpp
@@ -3238,7 +3212,7 @@ boost/mpl/aux_/lambda_no_ctps.hpp
 boost/mpl/aux_/lambda_support.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/lambda_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/lambda_fwd.hpp
 boost/mpl/void_fwd.hpp
 -
 boost/mpl/aux_/na.hpp
@@ -3254,9 +3228,9 @@ boost/mpl/aux_/template_arity_fwd.hpp
 boost/mpl/bool.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/limits/arity.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/limits/arity.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/logical.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/logical.hpp
 boost/mpl/or.hpp
 -
 boost/mpl/and.hpp
@@ -3264,11 +3238,11 @@ boost/mpl/and.hpp
 boost/mpl/not.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/next.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/next.hpp
 boost/mpl/next_prior.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/next_prior.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/next_prior.hpp
 boost/mpl/aux_/common_name_wknd.hpp
 -
 boost/mpl/aux_/na_spec.hpp
@@ -3276,7 +3250,7 @@ boost/mpl/aux_/na_spec.hpp
 boost/mpl/aux_/lambda_support.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/not.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/not.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/aux_/nttp_decl.hpp
@@ -3288,7 +3262,7 @@ boost/mpl/aux_/na_spec.hpp
 boost/mpl/aux_/lambda_support.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/or.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/or.hpp
 boost/mpl/aux_/config/use_preprocessed.hpp
 -
 boost/mpl/bool.hpp
@@ -3306,7 +3280,7 @@ boost/mpl/aux_/include_preprocessed.hpp
 boost/mpl/aux_/logical_op.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/placeholders.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/placeholders.hpp
 boost/mpl/arg.hpp
 -
 boost/mpl/aux_/adl_barrier.hpp
@@ -3324,7 +3298,7 @@ boost/preprocessor/iterate.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/protect.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/protect.hpp
 boost/mpl/aux_/arity.hpp
 -
 boost/mpl/aux_/config/dtp.hpp
@@ -3334,7 +3308,7 @@ boost/mpl/aux_/nttp_decl.hpp
 boost/mpl/aux_/na_spec.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/quote.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/quote.hpp
 boost/mpl/void.hpp
 -
 boost/mpl/aux_/has_type.hpp
@@ -3360,7 +3334,7 @@ boost/preprocessor/iterate.hpp
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/void.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/void.hpp
 boost/mpl/void_fwd.hpp
 -
 boost/mpl/bool.hpp
@@ -3372,11 +3346,11 @@ boost/mpl/aux_/config/msvc.hpp
 boost/mpl/aux_/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/mpl/void_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/mpl/void_fwd.hpp
 boost/mpl/aux_/adl_barrier.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/next_prior.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/next_prior.hpp
 iterator
 -
 boost/config.hpp
@@ -3396,7 +3370,7 @@ boost/iterator/advance.hpp
 boost/iterator/reverse_iterator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/add.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/add.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/arithmetic/dec.hpp
@@ -3432,7 +3406,7 @@ boost/preprocessor/arithmetic/detail/is_maximum_number.hpp
 boost/preprocessor/arithmetic/detail/is_minimum_number.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/dec.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/dec.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/config/limits.hpp
@@ -3450,7 +3424,7 @@ boost/preprocessor/arithmetic/limits/dec_512.hpp
 boost/preprocessor/arithmetic/limits/dec_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/detail/div_base.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/detail/div_base.hpp
 boost/preprocessor/arithmetic/inc.hpp
 -
 boost/preprocessor/arithmetic/sub.hpp
@@ -3466,25 +3440,25 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/detail/is_1_number.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/detail/is_1_number.hpp
 boost/preprocessor/comparison/equal.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp
 boost/preprocessor/comparison/equal.hpp
 -
 boost/preprocessor/arithmetic/detail/maximum_number.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp
 boost/preprocessor/logical/not.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/detail/maximum_number.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/detail/maximum_number.hpp
 boost/preprocessor/config/limits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/inc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/inc.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/config/limits.hpp
@@ -3502,19 +3476,19 @@ boost/preprocessor/arithmetic/limits/inc_512.hpp
 boost/preprocessor/arithmetic/limits/inc_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/limits/dec_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/limits/dec_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/limits/dec_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/limits/dec_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/limits/dec_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/limits/dec_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/limits/inc_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/limits/inc_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/limits/inc_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/limits/inc_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/limits/inc_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/limits/inc_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/mod.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/mod.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/arithmetic/detail/div_base.hpp
@@ -3532,7 +3506,7 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/arithmetic/detail/is_1_number.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/arithmetic/sub.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/arithmetic/sub.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/arithmetic/dec.hpp
@@ -3560,13 +3534,13 @@ boost/preprocessor/arithmetic/detail/is_maximum_number.hpp
 boost/preprocessor/arithmetic/detail/is_minimum_number.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/array/data.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/array/data.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/tuple/elem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/array/elem.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/array/elem.hpp
 boost/preprocessor/array/data.hpp
 -
 boost/preprocessor/array/size.hpp
@@ -3576,21 +3550,21 @@ boost/preprocessor/config/config.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/array/size.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/array/size.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/tuple/elem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/cat.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/cat.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/comma_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/comma_if.hpp
 boost/preprocessor/punctuation/comma_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/comparison/equal.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/comparison/equal.hpp
 boost/preprocessor/comparison/not_equal.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -3598,7 +3572,7 @@ boost/preprocessor/config/config.hpp
 boost/preprocessor/logical/compl.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/comparison/less_equal.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/comparison/less_equal.hpp
 boost/preprocessor/arithmetic/sub.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -3606,13 +3580,13 @@ boost/preprocessor/config/config.hpp
 boost/preprocessor/logical/not.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/comparison/limits/not_equal_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/comparison/limits/not_equal_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/comparison/limits/not_equal_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/comparison/limits/not_equal_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/comparison/limits/not_equal_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/comparison/limits/not_equal_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/comparison/not_equal.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/comparison/not_equal.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/cat.hpp
@@ -3638,13 +3612,13 @@ boost/preprocessor/comparison/limits/not_equal_512.hpp
 boost/preprocessor/comparison/limits/not_equal_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/config/config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/config/config.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/config/limits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/config/limits.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/deduce_d.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/deduce_d.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/while.hpp
@@ -3660,7 +3634,7 @@ boost/preprocessor/detail/auto_rec.hpp
 boost/preprocessor/config/limits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/dmc/while.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/dmc/while.hpp
 boost/preprocessor/control/iif.hpp
 -
 boost/preprocessor/logical/bool.hpp
@@ -3668,13 +3642,13 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/edg/limits/while_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/edg/limits/while_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/edg/limits/while_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/edg/limits/while_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/edg/limits/while_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/edg/limits/while_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/edg/while.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/edg/while.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/if.hpp
@@ -3700,19 +3674,19 @@ boost/preprocessor/control/detail/edg/limits/while_512.hpp
 boost/preprocessor/control/detail/edg/limits/while_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/limits/while_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/limits/while_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/limits/while_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/limits/while_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/limits/while_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/limits/while_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/msvc/while.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/msvc/while.hpp
 boost/preprocessor/control/if.hpp
 -
 boost/preprocessor/tuple/eat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/detail/while.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/detail/while.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -3742,7 +3716,7 @@ boost/preprocessor/control/detail/limits/while_512.hpp
 boost/preprocessor/control/detail/limits/while_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/expr_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/expr_if.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/expr_iif.hpp
@@ -3750,11 +3724,11 @@ boost/preprocessor/control/expr_iif.hpp
 boost/preprocessor/logical/bool.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/expr_iif.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/expr_iif.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/if.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -3762,17 +3736,17 @@ boost/preprocessor/control/iif.hpp
 boost/preprocessor/logical/bool.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/iif.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/iif.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/limits/while_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/limits/while_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/limits/while_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/limits/while_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/limits/while_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/limits/while_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/control/while.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/control/while.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/cat.hpp
@@ -3834,17 +3808,17 @@ boost/preprocessor/control/limits/while_512.hpp
 boost/preprocessor/control/limits/while_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/debug/error.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/debug/error.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/dec.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/dec.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/detail/auto_rec.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/detail/auto_rec.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/detail/dmc/auto_rec.hpp
@@ -3870,73 +3844,73 @@ boost/preprocessor/detail/limits/auto_rec_512.hpp
 boost/preprocessor/detail/limits/auto_rec_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/detail/check.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/detail/check.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/detail/dmc/auto_rec.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/detail/dmc/auto_rec.hpp
 boost/preprocessor/control/iif.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/detail/is_binary.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/detail/is_binary.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/detail/check.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/detail/limits/auto_rec_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/detail/limits/auto_rec_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/detail/limits/auto_rec_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/detail/limits/auto_rec_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/detail/limits/auto_rec_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/detail/limits/auto_rec_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/empty.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/empty.hpp
 boost/preprocessor/facilities/empty.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/enum.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/enum.hpp
 boost/preprocessor/repetition/enum.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/enum_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/enum_params.hpp
 boost/preprocessor/repetition/enum_params.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/enum_shifted_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/enum_shifted_params.hpp
 boost/preprocessor/repetition/enum_shifted_params.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/expr_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/expr_if.hpp
 boost/preprocessor/control/expr_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/check_empty.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/check_empty.hpp
 boost/preprocessor/variadic/has_opt.hpp
 -
 boost/preprocessor/facilities/is_empty_variadic.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/detail/is_empty.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/detail/is_empty.hpp
 boost/preprocessor/punctuation/is_begin_parens.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/empty.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/empty.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/expand.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/expand.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/identity.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/identity.hpp
 boost/preprocessor/facilities/empty.hpp
 -
 boost/preprocessor/tuple/eat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/intercept.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/intercept.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/config/limits.hpp
@@ -3954,19 +3928,19 @@ boost/preprocessor/facilities/limits/intercept_512.hpp
 boost/preprocessor/facilities/limits/intercept_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/is_1.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/is_1.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/facilities/is_empty.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/is_empty.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/is_empty.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/facilities/is_empty_variadic.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/is_empty_variadic.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/is_empty_variadic.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/punctuation/is_begin_parens.hpp
@@ -3976,31 +3950,31 @@ boost/preprocessor/facilities/detail/is_empty.hpp
 boost/preprocessor/variadic/has_opt.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/limits/intercept_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/limits/intercept_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/limits/intercept_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/limits/intercept_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/limits/intercept_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/limits/intercept_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/facilities/overload.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/facilities/overload.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/variadic/size.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/identity.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/identity.hpp
 boost/preprocessor/facilities/identity.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/inc.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/inc.hpp
 boost/preprocessor/arithmetic/inc.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/iterate.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/iterate.hpp
 boost/preprocessor/iteration/iterate.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/iteration/iterate.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/iteration/iterate.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/arithmetic/inc.hpp
@@ -4016,7 +3990,7 @@ boost/preprocessor/slot/slot.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/adt.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/adt.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/detail/is_binary.hpp
@@ -4026,7 +4000,7 @@ boost/preprocessor/logical/compl.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/dmc/fold_left.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/dmc/fold_left.hpp
 boost/preprocessor/control/expr_iif.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -4036,7 +4010,7 @@ boost/preprocessor/list/adt.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/edg/fold_left.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/edg/fold_left.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/expr_iif.hpp
@@ -4070,7 +4044,7 @@ boost/preprocessor/list/detail/edg/limits/fold_left_512.hpp
 boost/preprocessor/list/detail/edg/limits/fold_left_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/edg/fold_right.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/edg/fold_right.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -4100,19 +4074,19 @@ boost/preprocessor/list/detail/edg/limits/fold_right_512.hpp
 boost/preprocessor/list/detail/edg/limits/fold_right_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_left_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_left_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_left_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_left_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_left_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_left_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_right_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_right_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_right_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_right_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_right_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/edg/limits/fold_right_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/fold_left.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/fold_left.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/expr_iif.hpp
@@ -4146,7 +4120,7 @@ boost/preprocessor/list/detail/limits/fold_left_512.hpp
 boost/preprocessor/list/detail/limits/fold_left_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/fold_right.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/fold_right.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/list/fold_left.hpp
@@ -4172,19 +4146,19 @@ boost/preprocessor/list/detail/limits/fold_right_512.hpp
 boost/preprocessor/list/detail/limits/fold_right_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_left_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_left_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_left_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_left_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_left_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_left_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_right_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_right_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_right_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_right_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_right_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/detail/limits/fold_right_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/fold_left.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/fold_left.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/cat.hpp
@@ -4232,7 +4206,7 @@ boost/preprocessor/list/limits/fold_left_512.hpp
 boost/preprocessor/list/limits/fold_left_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/fold_right.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/fold_right.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/cat.hpp
@@ -4264,7 +4238,7 @@ boost/preprocessor/list/detail/edg/fold_right.hpp
 boost/preprocessor/list/detail/fold_right.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/for_each_i.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/for_each_i.hpp
 boost/preprocessor/arithmetic/inc.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4278,13 +4252,13 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/limits/fold_left_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/limits/fold_left_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/limits/fold_left_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/limits/fold_left_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/limits/fold_left_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/limits/fold_left_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/list/reverse.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/list/reverse.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/list/fold_left.hpp
@@ -4298,7 +4272,7 @@ boost/preprocessor/list/adt.hpp
 boost/preprocessor/list/fold_left.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/and.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/and.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/logical/bool.hpp
@@ -4306,15 +4280,15 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/logical/bitand.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/bitand.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/bitand.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/bitor.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/bitor.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/bool.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/bool.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/config/limits.hpp
@@ -4332,17 +4306,17 @@ boost/preprocessor/logical/limits/bool_512.hpp
 boost/preprocessor/logical/limits/bool_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/compl.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/compl.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/limits/bool_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/limits/bool_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/limits/bool_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/limits/bool_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/limits/bool_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/limits/bool_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/logical/not.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/logical/not.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/logical/bool.hpp
@@ -4350,9 +4324,9 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/logical/compl.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/punctuation/comma.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/punctuation/comma.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/punctuation/comma_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/punctuation/comma_if.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/if.hpp
@@ -4362,21 +4336,21 @@ boost/preprocessor/facilities/empty.hpp
 boost/preprocessor/punctuation/comma.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/punctuation/detail/is_begin_parens.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/punctuation/detail/is_begin_parens.hpp
 boost/preprocessor/facilities/empty.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/punctuation/is_begin_parens.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/punctuation/is_begin_parens.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/punctuation/detail/is_begin_parens.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repeat.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repeat.hpp
 boost/preprocessor/repetition/repeat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/dmc/for.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/dmc/for.hpp
 boost/preprocessor/control/expr_iif.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -4386,7 +4360,7 @@ boost/preprocessor/logical/bool.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/edg/for.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/edg/for.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/if.hpp
@@ -4412,13 +4386,13 @@ boost/preprocessor/repetition/detail/edg/limits/for_512.hpp
 boost/preprocessor/repetition/detail/edg/limits/for_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/edg/limits/for_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/edg/limits/for_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/edg/limits/for_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/edg/limits/for_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/edg/limits/for_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/edg/limits/for_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/for.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/for.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/expr_iif.hpp
@@ -4452,19 +4426,19 @@ boost/preprocessor/repetition/detail/limits/for_512.hpp
 boost/preprocessor/repetition/detail/limits/for_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/limits/for_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/limits/for_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/limits/for_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/limits/for_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/limits/for_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/limits/for_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/detail/msvc/for.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/detail/msvc/for.hpp
 boost/preprocessor/control/if.hpp
 -
 boost/preprocessor/tuple/eat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/enum.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/enum.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4482,7 +4456,7 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/enum_binary_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/enum_binary_params.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4496,7 +4470,7 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/enum_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/enum_params.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/punctuation/comma_if.hpp
@@ -4504,7 +4478,7 @@ boost/preprocessor/punctuation/comma_if.hpp
 boost/preprocessor/repetition/repeat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/enum_shifted_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/enum_shifted_params.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/arithmetic/inc.hpp
@@ -4518,13 +4492,13 @@ boost/preprocessor/punctuation/comma_if.hpp
 boost/preprocessor/repetition/repeat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/enum_trailing_params.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/enum_trailing_params.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/repetition/repeat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/for.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/for.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/cat.hpp
@@ -4580,19 +4554,19 @@ boost/preprocessor/repetition/limits/for_512.hpp
 boost/preprocessor/repetition/limits/for_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/limits/for_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/limits/for_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/limits/for_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/limits/for_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/limits/for_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/limits/for_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/limits/repeat_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/limits/repeat_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/limits/repeat_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/limits/repeat_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/limits/repeat_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/limits/repeat_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/repeat.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/repeat.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4618,7 +4592,7 @@ boost/preprocessor/repetition/limits/repeat_512.hpp
 boost/preprocessor/repetition/limits/repeat_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/repetition/repeat_from_to.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/repetition/repeat_from_to.hpp
 boost/preprocessor/arithmetic/add.hpp
 -
 boost/preprocessor/arithmetic/sub.hpp
@@ -4644,7 +4618,7 @@ boost/preprocessor/arithmetic/dec.hpp
 boost/preprocessor/config/limits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/cat.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/cat.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4660,7 +4634,7 @@ boost/preprocessor/seq/size.hpp
 boost/preprocessor/tuple/eat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/detail/is_empty.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/detail/is_empty.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/arithmetic/dec.hpp
@@ -4672,13 +4646,13 @@ boost/preprocessor/logical/compl.hpp
 boost/preprocessor/seq/size.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/detail/limits/split_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/detail/limits/split_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/detail/limits/split_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/detail/limits/split_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/detail/limits/split_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/detail/limits/split_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/detail/split.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/detail/split.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/config/limits.hpp
@@ -4696,7 +4670,7 @@ boost/preprocessor/seq/detail/limits/split_512.hpp
 boost/preprocessor/seq/detail/limits/split_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/elem.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/elem.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4718,7 +4692,7 @@ boost/preprocessor/seq/limits/elem_512.hpp
 boost/preprocessor/seq/limits/elem_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/enum.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/enum.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4740,7 +4714,7 @@ boost/preprocessor/seq/limits/enum_512.hpp
 boost/preprocessor/seq/limits/enum_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/first_n.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/first_n.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/if.hpp
@@ -4752,7 +4726,7 @@ boost/preprocessor/tuple/eat.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/fold_left.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/fold_left.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/cat.hpp
@@ -4784,7 +4758,7 @@ boost/preprocessor/seq/limits/fold_left_512.hpp
 boost/preprocessor/seq/limits/fold_left_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/for_each_i.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/for_each_i.hpp
 boost/preprocessor/arithmetic/dec.hpp
 -
 boost/preprocessor/arithmetic/inc.hpp
@@ -4808,31 +4782,31 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/elem_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/elem_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/elem_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/elem_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/elem_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/elem_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/enum_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/enum_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/enum_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/enum_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/enum_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/enum_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/fold_left_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/fold_left_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/fold_left_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/fold_left_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/fold_left_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/fold_left_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/size_1024.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/size_1024.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/size_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/size_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/limits/size_512.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/limits/size_512.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/rest_n.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/rest_n.hpp
 boost/preprocessor/arithmetic/inc.hpp
 -
 boost/preprocessor/comparison/not_equal.hpp
@@ -4852,13 +4826,13 @@ boost/preprocessor/seq/detail/split.hpp
 boost/preprocessor/tuple/elem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/seq.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/seq.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/seq/elem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/size.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/size.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4878,7 +4852,7 @@ boost/preprocessor/seq/limits/size_512.hpp
 boost/preprocessor/seq/limits/size_1024.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/subseq.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/subseq.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/seq/first_n.hpp
@@ -4886,7 +4860,7 @@ boost/preprocessor/seq/first_n.hpp
 boost/preprocessor/seq/rest_n.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/seq/transform.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/seq/transform.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/seq/fold_left.hpp
@@ -4898,19 +4872,19 @@ boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/tuple/rem.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/slot/detail/def.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/slot/detail/def.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/slot/slot.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/slot/slot.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/slot/detail/def.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/stringize.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/stringize.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/detail/is_single_return.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/detail/is_single_return.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/control/iif.hpp
@@ -4920,11 +4894,11 @@ boost/preprocessor/facilities/is_1.hpp
 boost/preprocessor/tuple/size.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/eat.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/eat.hpp
 boost/preprocessor/config/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/elem.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/elem.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4940,13 +4914,13 @@ boost/preprocessor/variadic/elem.hpp
 boost/preprocessor/tuple/detail/is_single_return.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/limits/to_list_128.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/limits/to_list_128.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/limits/to_list_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/limits/to_list_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/limits/to_list_64.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/limits/to_list_64.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/rem.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/rem.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4958,7 +4932,7 @@ boost/preprocessor/facilities/overload.hpp
 boost/preprocessor/tuple/detail/is_single_return.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/size.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/size.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -4970,7 +4944,7 @@ boost/preprocessor/variadic/has_opt.hpp
 boost/preprocessor/variadic/size.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/tuple/to_list.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/tuple/to_list.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -5000,13 +4974,13 @@ boost/preprocessor/tuple/limits/to_list_128.hpp
 boost/preprocessor/tuple/limits/to_list_256.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/detail/has_opt.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/detail/has_opt.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/cat.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/elem.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/elem.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -5026,25 +5000,25 @@ boost/preprocessor/variadic/limits/elem_128.hpp
 boost/preprocessor/variadic/limits/elem_256.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/has_opt.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/has_opt.hpp
 boost/preprocessor/config/config.hpp
 -
 boost/preprocessor/variadic/detail/has_opt.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/limits/elem_128.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/limits/elem_128.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/limits/elem_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/limits/elem_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/limits/elem_64.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/limits/elem_64.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/limits/size_128.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/limits/size_128.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/limits/size_256.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/limits/size_256.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/limits/size_64.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/limits/size_64.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/preprocessor/variadic/size.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/preprocessor/variadic/size.hpp
 boost/preprocessor/cat.hpp
 -
 boost/preprocessor/config/config.hpp
@@ -5062,7 +5036,7 @@ boost/preprocessor/variadic/limits/size_128.hpp
 boost/preprocessor/variadic/limits/size_256.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/algorithm/equal.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/algorithm/equal.hpp
 boost/config.hpp
 -
 boost/range/concepts.hpp
@@ -5070,7 +5044,7 @@ boost/range/concepts.hpp
 iterator
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/as_literal.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/as_literal.hpp
 boost/range/iterator_range.hpp
 -
 boost/range/detail/str_types.hpp
@@ -5084,7 +5058,7 @@ string
 cwchar
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/begin.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/begin.hpp
 boost/range/config.hpp
 -
 boost/range/iterator.hpp
@@ -5094,7 +5068,7 @@ boost/config.hpp
 boost/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/concepts.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/concepts.hpp
 boost/concept_check.hpp
 -
 boost/iterator/iterator_concepts.hpp
@@ -5114,13 +5088,13 @@ boost/type_traits/remove_reference.hpp
 iterator
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/config.hpp
 boost/detail/workaround.hpp
 -
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/const_iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/const_iterator.hpp
 boost/range/config.hpp
 -
 boost/range/range_fwd.hpp
@@ -5136,7 +5110,7 @@ cstddef
 utility
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/common.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/common.hpp
 boost/range/config.hpp
 -
 boost/range/detail/sfinae.hpp
@@ -5150,7 +5124,7 @@ boost/mpl/int.hpp
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/extract_optional_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/extract_optional_type.hpp
 boost/config.hpp
 -
 boost/preprocessor/cat.hpp
@@ -5158,7 +5132,7 @@ boost/preprocessor/cat.hpp
 boost/mpl/has_xxx.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/has_member_size.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/has_member_size.hpp
 boost/type_traits/is_class.hpp
 -
 boost/type_traits/is_member_function_pointer.hpp
@@ -5170,7 +5144,7 @@ boost/mpl/bool.hpp
 boost/cstdint.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/implementation_help.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/implementation_help.hpp
 boost/range/config.hpp
 -
 boost/range/detail/common.hpp
@@ -5184,19 +5158,19 @@ string.h
 wchar.h
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/misc_concept.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/misc_concept.hpp
 boost/concept_check.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/msvc_has_iterator_workaround.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/msvc_has_iterator_workaround.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/safe_bool.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/safe_bool.hpp
 boost/config.hpp
 -
 boost/range/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/sfinae.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/sfinae.hpp
 boost/range/config.hpp
 -
 boost/type_traits/is_array.hpp
@@ -5206,13 +5180,13 @@ boost/type_traits/detail/yes_no_type.hpp
 utility
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/detail/str_types.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/detail/str_types.hpp
 boost/range/size_type.hpp
 -
 boost/range/iterator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/difference_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/difference_type.hpp
 boost/mpl/and.hpp
 -
 boost/range/config.hpp
@@ -5226,7 +5200,7 @@ boost/iterator/iterator_traits.hpp
 boost/type_traits/remove_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/distance.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/distance.hpp
 boost/iterator/distance.hpp
 -
 boost/range/begin.hpp
@@ -5236,7 +5210,7 @@ boost/range/end.hpp
 boost/range/difference_type.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/empty.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/empty.hpp
 boost/range/config.hpp
 -
 boost/range/begin.hpp
@@ -5244,7 +5218,7 @@ boost/range/begin.hpp
 boost/range/end.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/end.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/end.hpp
 boost/range/config.hpp
 -
 boost/range/detail/implementation_help.hpp
@@ -5258,7 +5232,7 @@ boost/config.hpp
 boost/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/functions.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/functions.hpp
 boost/range/begin.hpp
 -
 boost/range/end.hpp
@@ -5274,7 +5248,7 @@ boost/range/rbegin.hpp
 boost/range/rend.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/has_range_iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/has_range_iterator.hpp
 boost/mpl/bool.hpp
 -
 boost/mpl/eval_if.hpp
@@ -5288,7 +5262,7 @@ boost/type_traits/remove_reference.hpp
 boost/utility/enable_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/iterator.hpp
 boost/range/config.hpp
 -
 boost/range/range_fwd.hpp
@@ -5304,13 +5278,13 @@ boost/type_traits/remove_const.hpp
 boost/mpl/eval_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/iterator_range.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/iterator_range.hpp
 boost/range/iterator_range_core.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/boost/range/iterator_range_core.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/boost/range/iterator_range_core.hpp
 boost/range/iterator_range_io.hpp
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/boost/range/iterator_range_io.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/boost/range/iterator_range_io.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/iterator_range_core.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/iterator_range_core.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -5364,7 +5338,7 @@ algorithm
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/iterator_range_io.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/iterator_range_io.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -5382,7 +5356,7 @@ algorithm
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/mutable_iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/mutable_iterator.hpp
 boost/range/config.hpp
 -
 boost/range/range_fwd.hpp
@@ -5400,21 +5374,21 @@ utility
 boost/range/detail/msvc_has_iterator_workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/range_fwd.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/range_fwd.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/rbegin.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/rbegin.hpp
 boost/range/end.hpp
 -
 boost/range/reverse_iterator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/rend.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/rend.hpp
 boost/range/begin.hpp
 -
 boost/range/reverse_iterator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/reverse_iterator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/reverse_iterator.hpp
 boost/range/config.hpp
 -
 boost/range/iterator.hpp
@@ -5424,7 +5398,7 @@ boost/type_traits/remove_reference.hpp
 boost/iterator/reverse_iterator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/size.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/size.hpp
 boost/range/config.hpp
 -
 boost/range/begin.hpp
@@ -5442,7 +5416,7 @@ boost/cstdint.hpp
 boost/utility.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/size_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/size_type.hpp
 boost/range/config.hpp
 -
 boost/range/difference_type.hpp
@@ -5462,7 +5436,7 @@ cstddef
 utility
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/range/value_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/range/value_type.hpp
 boost/range/config.hpp
 -
 boost/range/iterator.hpp
@@ -5470,17 +5444,17 @@ boost/range/iterator.hpp
 boost/iterator/iterator_traits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/ref.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/ref.hpp
 boost/core/ref.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/static_assert.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/static_assert.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/throw_exception.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/throw_exception.hpp
 boost/exception/exception.hpp
 -
 boost/assert/source_location.hpp
@@ -5492,7 +5466,7 @@ boost/config/workaround.hpp
 exception
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_index.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_index.hpp
 boost/config.hpp
 -
 boost/type_index/stl_type_index.hpp
@@ -5504,7 +5478,7 @@ boost/type_index/ctti_type_index.hpp
 boost/type_index/detail/ctti_register_class.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_index/ctti_type_index.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_index/ctti_type_index.hpp
 boost/type_index/type_index_facade.hpp
 -
 boost/type_index/detail/compile_time_type_info.hpp
@@ -5520,7 +5494,7 @@ boost/type_traits/remove_cv.hpp
 boost/type_traits/remove_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_index/detail/compile_time_type_info.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_index/detail/compile_time_type_info.hpp
 cstring
 -
 boost/config.hpp
@@ -5532,15 +5506,15 @@ boost/type_traits/integral_constant.hpp
 boost/preprocessor/facilities/expand.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_index/detail/ctti_register_class.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_index/detail/ctti_register_class.hpp
 boost/type_index/ctti_type_index.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_index/detail/stl_register_class.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_index/detail/stl_register_class.hpp
 boost/type_index/stl_type_index.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_index/stl_type_index.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_index/stl_type_index.hpp
 boost/type_index/type_index_facade.hpp
 -
 typeinfo
@@ -5576,7 +5550,7 @@ boost/type_traits/make_signed.hpp
 boost/type_traits/type_identity.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_index/type_index_facade.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_index/type_index_facade.hpp
 boost/config.hpp
 -
 boost/container_hash/hash_fwd.hpp
@@ -5590,25 +5564,25 @@ iosfwd
 ostream
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/add_const.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/add_const.hpp
 boost/type_traits/detail/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/add_lvalue_reference.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/add_lvalue_reference.hpp
 boost/type_traits/add_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/add_pointer.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/add_pointer.hpp
 boost/type_traits/remove_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/add_reference.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/add_reference.hpp
 boost/detail/workaround.hpp
 -
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/add_rvalue_reference.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/add_rvalue_reference.hpp
 boost/config.hpp
 -
 boost/type_traits/is_void.hpp
@@ -5616,11 +5590,11 @@ boost/type_traits/is_void.hpp
 boost/type_traits/is_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/add_volatile.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/add_volatile.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/alignment_of.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/alignment_of.hpp
 boost/config.hpp
 -
 cstddef
@@ -5630,7 +5604,7 @@ boost/type_traits/intrinsics.hpp
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/composite_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/composite_traits.hpp
 boost/type_traits/is_array.hpp
 -
 boost/type_traits/is_enum.hpp
@@ -5646,21 +5620,21 @@ boost/type_traits/is_reference.hpp
 boost/type_traits/is_union.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/conditional.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/conditional.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/conversion_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/conversion_traits.hpp
 boost/type_traits/is_convertible.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/declval.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/declval.hpp
 boost/config.hpp
 -
 boost/type_traits/add_rvalue_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/config.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/config.hpp
 boost/config.hpp
 -
 boost/version.hpp
@@ -5668,7 +5642,7 @@ boost/version.hpp
 boost/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/has_binary_operator.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/has_binary_operator.hpp
 boost/config.hpp
 -
 boost/type_traits/detail/config.hpp
@@ -5714,7 +5688,7 @@ boost/type_traits/remove_reference.hpp
 boost/type_traits/detail/is_likely_lambda.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_function_cxx_03.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_function_cxx_03.hpp
 boost/type_traits/is_reference.hpp
 -
 boost/type_traits/detail/is_function_ptr_helper.hpp
@@ -5726,19 +5700,19 @@ boost/type_traits/detail/yes_no_type.hpp
 boost/type_traits/detail/is_function_msvc10_fix.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_function_cxx_11.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_function_cxx_11.hpp
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_function_msvc10_fix.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_function_msvc10_fix.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_function_ptr_helper.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_function_ptr_helper.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_function_ptr_tester.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_function_ptr_tester.hpp
 boost/type_traits/detail/yes_no_type.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_likely_lambda.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_likely_lambda.hpp
 boost/type_traits/detail/config.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -5748,17 +5722,17 @@ boost/type_traits/is_convertible.hpp
 boost/type_traits/enable_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
 boost/type_traits/detail/yes_no_type.hpp
 -
 boost/type_traits/detail/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_member_function_pointer_cxx_03.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_member_function_pointer_cxx_03.hpp
 boost/type_traits/detail/is_mem_fun_pointer_impl.hpp
 -
 boost/type_traits/remove_cv.hpp
@@ -5774,19 +5748,19 @@ boost/type_traits/detail/yes_no_type.hpp
 boost/type_traits/detail/is_mem_fun_pointer_tester.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/is_rvalue_reference_msvc10_fix.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/is_rvalue_reference_msvc10_fix.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/detail/yes_no_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/detail/yes_no_type.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/enable_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/enable_if.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/function_traits.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/function_traits.hpp
 boost/config.hpp
 -
 boost/type_traits/is_function.hpp
@@ -5794,7 +5768,7 @@ boost/type_traits/is_function.hpp
 boost/type_traits/add_pointer.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/has_minus.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/has_minus.hpp
 boost/config.hpp
 -
 boost/type_traits/detail/config.hpp
@@ -5818,7 +5792,7 @@ utility
 boost/type_traits/detail/has_binary_operator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/has_minus_assign.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/has_minus_assign.hpp
 boost/config.hpp
 -
 boost/type_traits/detail/config.hpp
@@ -5844,11 +5818,11 @@ utility
 boost/type_traits/detail/has_binary_operator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/has_plus.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/has_plus.hpp
 boost/type_traits/detail/has_binary_operator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/has_plus_assign.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/has_plus_assign.hpp
 boost/config.hpp
 -
 boost/type_traits/detail/config.hpp
@@ -5880,7 +5854,7 @@ utility
 boost/type_traits/detail/has_binary_operator.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/has_trivial_copy.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/has_trivial_copy.hpp
 cstddef
 -
 boost/type_traits/intrinsics.hpp
@@ -5896,7 +5870,7 @@ boost/type_traits/add_const.hpp
 boost/type_traits/add_lvalue_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/has_trivial_destructor.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/has_trivial_destructor.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -5910,13 +5884,13 @@ boost/type_traits/is_destructible.hpp
 boost/type_traits/is_pod.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/integral_constant.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/integral_constant.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/intrinsics.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/intrinsics.hpp
 boost/config.hpp
 -
 boost/type_traits/detail/config.hpp
@@ -5946,7 +5920,7 @@ boost/type_traits/is_volatile.hpp
 boost/type_traits/is_void.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_abstract.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_abstract.hpp
 cstddef
 -
 boost/type_traits/intrinsics.hpp
@@ -5962,19 +5936,19 @@ boost/type_traits/is_class.hpp
 boost/type_traits/is_polymorphic.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_arithmetic.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_arithmetic.hpp
 boost/type_traits/is_integral.hpp
 -
 boost/type_traits/is_floating_point.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_array.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_array.hpp
 boost/type_traits/integral_constant.hpp
 -
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_base_and_derived.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_base_and_derived.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -5994,7 +5968,7 @@ boost/type_traits/remove_cv.hpp
 boost/type_traits/is_same.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_base_of.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_base_of.hpp
 boost/type_traits/is_base_and_derived.hpp
 -
 boost/type_traits/is_same.hpp
@@ -6002,7 +5976,7 @@ boost/type_traits/is_same.hpp
 boost/type_traits/is_class.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_class.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_class.hpp
 boost/type_traits/detail/config.hpp
 -
 boost/type_traits/intrinsics.hpp
@@ -6024,7 +5998,7 @@ boost/type_traits/is_void.hpp
 boost/type_traits/is_function.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_complete.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_complete.hpp
 boost/type_traits/declval.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -6038,13 +6012,13 @@ boost/type_traits/detail/yes_no_type.hpp
 boost/config/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_const.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_const.hpp
 cstddef
 -
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_constructible.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_constructible.hpp
 boost/type_traits/integral_constant.hpp
 -
 boost/detail/workaround.hpp
@@ -6066,7 +6040,7 @@ boost/type_traits/is_convertible.hpp
 boost/type_traits/is_default_constructible.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_convertible.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_convertible.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -6106,7 +6080,7 @@ boost/type_traits/is_function.hpp
 boost/type_traits/is_same.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_copy_constructible.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_copy_constructible.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -6130,7 +6104,7 @@ boost/type_traits/is_array.hpp
 boost/type_traits/declval.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_default_constructible.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_default_constructible.hpp
 cstddef
 -
 boost/type_traits/integral_constant.hpp
@@ -6150,7 +6124,7 @@ boost/type_traits/detail/yes_no_type.hpp
 boost/type_traits/is_pod.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_destructible.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_destructible.hpp
 cstddef
 -
 boost/type_traits/integral_constant.hpp
@@ -6170,7 +6144,7 @@ boost/type_traits/is_pod.hpp
 boost/type_traits/is_class.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_enum.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_enum.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -6194,11 +6168,11 @@ boost/type_traits/is_class.hpp
 boost/type_traits/is_union.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_floating_point.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_floating_point.hpp
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_function.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_function.hpp
 boost/type_traits/detail/config.hpp
 -
 boost/config/workaround.hpp
@@ -6208,23 +6182,23 @@ boost/type_traits/detail/is_function_cxx_11.hpp
 boost/type_traits/detail/is_function_cxx_03.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_fundamental.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_fundamental.hpp
 boost/type_traits/is_arithmetic.hpp
 -
 boost/type_traits/is_void.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_integral.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_integral.hpp
 boost/config.hpp
 -
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_lvalue_reference.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_lvalue_reference.hpp
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_member_function_pointer.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_member_function_pointer.hpp
 boost/type_traits/detail/config.hpp
 -
 boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp
@@ -6232,17 +6206,17 @@ boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp
 boost/type_traits/detail/is_member_function_pointer_cxx_03.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_member_pointer.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_member_pointer.hpp
 boost/detail/workaround.hpp
 -
 boost/type_traits/is_member_function_pointer.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_noncopyable.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_noncopyable.hpp
 boost/type_traits/is_base_and_derived.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_pod.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_pod.hpp
 cstddef
 -
 boost/type_traits/detail/config.hpp
@@ -6258,11 +6232,11 @@ boost/type_traits/is_function.hpp
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_pointer.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_pointer.hpp
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_polymorphic.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_polymorphic.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -6272,13 +6246,13 @@ boost/type_traits/is_class.hpp
 boost/detail/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_reference.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_reference.hpp
 boost/type_traits/is_lvalue_reference.hpp
 -
 boost/type_traits/is_rvalue_reference.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_rvalue_reference.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_rvalue_reference.hpp
 boost/config.hpp
 -
 boost/type_traits/integral_constant.hpp
@@ -6286,11 +6260,11 @@ boost/type_traits/integral_constant.hpp
 boost/type_traits/detail/is_rvalue_reference_msvc10_fix.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_same.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_same.hpp
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_scalar.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_scalar.hpp
 boost/type_traits/is_arithmetic.hpp
 -
 boost/type_traits/is_enum.hpp
@@ -6302,7 +6276,7 @@ boost/type_traits/is_member_pointer.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_signed.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_signed.hpp
 boost/type_traits/is_integral.hpp
 -
 boost/type_traits/remove_cv.hpp
@@ -6312,13 +6286,13 @@ boost/type_traits/is_enum.hpp
 climits
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_union.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_union.hpp
 boost/type_traits/intrinsics.hpp
 -
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_unsigned.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_unsigned.hpp
 boost/type_traits/is_integral.hpp
 -
 boost/type_traits/is_enum.hpp
@@ -6328,17 +6302,17 @@ boost/type_traits/remove_cv.hpp
 climits
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_void.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_void.hpp
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/is_volatile.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/is_volatile.hpp
 cstddef
 -
 boost/type_traits/integral_constant.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/make_signed.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/make_signed.hpp
 boost/type_traits/conditional.hpp
 -
 boost/type_traits/is_integral.hpp
@@ -6364,7 +6338,7 @@ boost/type_traits/add_volatile.hpp
 boost/static_assert.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/make_unsigned.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/make_unsigned.hpp
 boost/type_traits/conditional.hpp
 -
 boost/type_traits/is_integral.hpp
@@ -6390,11 +6364,11 @@ boost/type_traits/add_volatile.hpp
 boost/static_assert.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/make_void.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/make_void.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/remove_const.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/remove_const.hpp
 boost/config.hpp
 -
 cstddef
@@ -6402,7 +6376,7 @@ cstddef
 boost/detail/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/remove_cv.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/remove_cv.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
@@ -6410,7 +6384,7 @@ boost/detail/workaround.hpp
 cstddef
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/remove_pointer.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/remove_pointer.hpp
 boost/config.hpp
 -
 boost/config/workaround.hpp
@@ -6420,17 +6394,17 @@ boost/type_traits/remove_cv.hpp
 boost/type_traits/is_pointer.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/remove_reference.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/remove_reference.hpp
 boost/config.hpp
 -
 boost/detail/workaround.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/type_traits/type_identity.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/type_traits/type_identity.hpp
 boost/config.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/utility.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/utility.hpp
 boost/utility/base_from_member.hpp
 -
 boost/utility/binary.hpp
@@ -6446,7 +6420,7 @@ boost/core/checked_delete.hpp
 boost/core/noncopyable.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/utility/base_from_member.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/utility/base_from_member.hpp
 boost/config.hpp
 -
 boost/preprocessor/arithmetic/inc.hpp
@@ -6466,7 +6440,7 @@ boost/type_traits/remove_reference.hpp
 boost/utility/enable_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/utility/binary.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/utility/binary.hpp
 boost/preprocessor/control/deduce_d.hpp
 -
 boost/preprocessor/facilities/identity.hpp
@@ -6486,17 +6460,17 @@ boost/preprocessor/facilities/empty.hpp
 boost/preprocessor/control/while.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/utility/detail/result_of_iterate.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/utility/detail/result_of_iterate.hpp
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/utility/enable_if.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/utility/enable_if.hpp
 boost/core/enable_if.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/utility/identity_type.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/utility/identity_type.hpp
 boost/type_traits/function_traits.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/utility/result_of.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/utility/result_of.hpp
 boost/config.hpp
 -
 boost/preprocessor/cat.hpp
@@ -6538,5 +6512,5 @@ boost/core/enable_if.hpp
 boost/utility/detail/result_of_iterate.hpp
 -
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto1/boost_1_76_0/boost/version.hpp
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/version.hpp
 

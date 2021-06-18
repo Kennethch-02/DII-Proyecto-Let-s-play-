@@ -1,6 +1,7 @@
-//
-// Created by User on 10/5/2021.
-//
+/**
+* \brief Server Rompeca: Coneccion de servidor  Genetico
+* @param
+*/
 
 #include "Server.h"
 

@@ -1,4 +1,4 @@
 ToolSet: 16.0 (local)@C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
 Options: 
 
-Options:DBOOST_ROOT=C:\UNIVERSIDAD\Datos2_2021\Proyecto1\boost_1_76_0
+Options:

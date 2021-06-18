@@ -9,6 +9,8 @@
 #include <stdio.h>      /* printf, scanf, puts, NULL */
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
+#include <thread.h>
+#include <Server.h>
 #include <QMainWindow>
 using namespace std;
 
@@ -33,6 +35,13 @@ private slots:
     void miximag();
     void on_set_clicked();
     void genRlist();
+    void prevOrder();
+    void nextOrder();
+
+
+    void on_reset_clicked();
+
+    void on_next_clicked();
 
 private:
     Ui::MainWindow *ui;
@@ -42,5 +51,11 @@ private:
     QList<QLabel*> labelList;
     QList<QPixmap*> pixmapList;
     int *Rlist;
+    Server *Servidor;
+    Thread *sThread;
+    string swapstr;
+    string SWA;
+    string SWB;
+
 };
 #endif // MAINWINDOW_H
