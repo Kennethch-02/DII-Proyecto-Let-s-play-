@@ -20,6 +20,11 @@ server::server(QObject *parent)
 bool server::startServer(quint16 port){
     return listen(QHostAddress::Any, port);
 }
+/**
+* \brief Realiza las acciones segun los mensajes
+* que recibe el servidor
+* @param QTcpSocket
+*/
 void server::Do_Action(){
     if (Received_Message.type == "Data"){
         if (Received_Message.action == "Set"){
@@ -136,6 +141,9 @@ void server::Do_Action(){
     }
     Received_Message.clear();
 }
+/**
+* \brief Envia mensajes a cada socket conectado al servidor.
+*/
 void server::Send_Message(){
     for(auto a : mSockets){
         //Envio de mensajes

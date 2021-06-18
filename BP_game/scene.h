@@ -3,6 +3,7 @@
 
 #include <QGraphicsScene>
 #include "object.h"
+#include "gameover.h"
 class object;
 
 class Scene : public QGraphicsScene
@@ -24,10 +25,19 @@ public:
     void init_direction();
     bool shoot = false;
     QString direccion;
+    QGraphicsItemGroup group;
+    void Clean();
+    int J1 = 0;
+    int J2 = 0;
+    double c_x;
+    double c_y;
 public slots:
     void Update();
 private:
     double vx;
     double vy;
+    int dx;
+    int dy;
+    bool move;
 };
 #endif // SCENE_H

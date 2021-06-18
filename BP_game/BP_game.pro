@@ -1,5 +1,5 @@
 QT       += core gui
-
+QT       += network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++11
@@ -9,29 +9,28 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    backtracking.cpp \
     bp_settings.cpp \
+    gameover.cpp \
     main.cpp \
     bp_window.cpp \
     mainwindow.cpp \
     object.cpp \
-    pathfinding.cpp \
     scene.cpp \
     thread.cpp
 
 HEADERS += \
-    backtracking.h \
     bp_settings.h \
     bp_window.h \
+    gameover.h \
     mainwindow.h \
     object.h \
-    pathfinding.h \
     scene.h \
     thread.h
 
 FORMS += \
     bp_settings.ui \
     bp_window.ui \
+    gameover.ui \
     mainwindow.ui
 
 # Default rules for deployment.

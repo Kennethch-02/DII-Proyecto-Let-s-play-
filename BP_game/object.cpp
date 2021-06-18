@@ -2,6 +2,10 @@
 #include <QPointF>
 #include <QSizeF>
 #include <QPainter>
+/**
+* \brief Clase Objeto que permite agregarlo como elemento grafico de la escena
+* @param QGraphicsItem
+*/
 object::object(const QString filename, QGraphicsItem *parent)
     : QGraphicsItem(parent)
 {

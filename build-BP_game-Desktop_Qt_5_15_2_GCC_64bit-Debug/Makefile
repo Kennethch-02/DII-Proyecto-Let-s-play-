@@ -14,10 +14,10 @@ EQ            = =
 
 CC            = gcc
 CXX           = g++
-DEFINES       = -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
+DEFINES       = -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -g -Wall -Wextra -D_REENTRANT -fPIC $(DEFINES)
 CXXFLAGS      = -pipe -g -std=gnu++11 -Wall -Wextra -D_REENTRANT -fPIC $(DEFINES)
-INCPATH       = -I../BP_game -I. -I../../../Qt/5.15.2/gcc_64/include -I../../../Qt/5.15.2/gcc_64/include/QtWidgets -I../../../Qt/5.15.2/gcc_64/include/QtGui -I../../../Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/libdrm -I. -I../../../Qt/5.15.2/gcc_64/mkspecs/linux-g++
+INCPATH       = -I../BP_game -I. -I../../../Qt/5.15.2/gcc_64/include -I../../../Qt/5.15.2/gcc_64/include/QtWidgets -I../../../Qt/5.15.2/gcc_64/include/QtGui -I../../../Qt/5.15.2/gcc_64/include/QtNetwork -I../../../Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/libdrm -I. -I../../../Qt/5.15.2/gcc_64/mkspecs/linux-g++
 QMAKE         = /home/kenneth/Qt/5.15.2/gcc_64/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -40,7 +40,7 @@ DISTNAME      = BP_game1.0.0
 DISTDIR = /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/.tmp/BP_game1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/home/kenneth/Qt/5.15.2/gcc_64/lib
-LIBS          = $(SUBLIBS) /home/kenneth/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so /home/kenneth/Qt/5.15.2/gcc_64/lib/libQt5Gui.so /home/kenneth/Qt/5.15.2/gcc_64/lib/libQt5Core.so -lGL -lpthread   
+LIBS          = $(SUBLIBS) /home/kenneth/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so /home/kenneth/Qt/5.15.2/gcc_64/lib/libQt5Gui.so /home/kenneth/Qt/5.15.2/gcc_64/lib/libQt5Network.so /home/kenneth/Qt/5.15.2/gcc_64/lib/libQt5Core.so -lGL -lpthread   
 AR            = ar cqs
 RANLIB        = 
 SED           = sed
@@ -52,32 +52,32 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = ../BP_game/backtracking.cpp \
-		../BP_game/bp_settings.cpp \
+SOURCES       = ../BP_game/bp_settings.cpp \
+		../BP_game/gameover.cpp \
 		../BP_game/main.cpp \
 		../BP_game/bp_window.cpp \
 		../BP_game/mainwindow.cpp \
 		../BP_game/object.cpp \
-		../BP_game/pathfinding.cpp \
 		../BP_game/scene.cpp \
 		../BP_game/thread.cpp qrc_res.cpp \
 		moc_bp_settings.cpp \
 		moc_bp_window.cpp \
+		moc_gameover.cpp \
 		moc_mainwindow.cpp \
 		moc_scene.cpp \
 		moc_thread.cpp
-OBJECTS       = backtracking.o \
-		bp_settings.o \
+OBJECTS       = bp_settings.o \
+		gameover.o \
 		main.o \
 		bp_window.o \
 		mainwindow.o \
 		object.o \
-		pathfinding.o \
 		scene.o \
 		thread.o \
 		qrc_res.o \
 		moc_bp_settings.o \
 		moc_bp_window.o \
+		moc_gameover.o \
 		moc_mainwindow.o \
 		moc_scene.o \
 		moc_thread.o
@@ -258,20 +258,18 @@ DIST          = ../../../Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf \
 		../../../Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf \
 		../../../Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf \
 		../../../Qt/5.15.2/gcc_64/mkspecs/features/lex.prf \
-		../BP_game/BP_game.pro ../BP_game/backtracking.h \
-		../BP_game/bp_settings.h \
+		../BP_game/BP_game.pro ../BP_game/bp_settings.h \
 		../BP_game/bp_window.h \
+		../BP_game/gameover.h \
 		../BP_game/mainwindow.h \
 		../BP_game/object.h \
-		../BP_game/pathfinding.h \
 		../BP_game/scene.h \
-		../BP_game/thread.h ../BP_game/backtracking.cpp \
-		../BP_game/bp_settings.cpp \
+		../BP_game/thread.h ../BP_game/bp_settings.cpp \
+		../BP_game/gameover.cpp \
 		../BP_game/main.cpp \
 		../BP_game/bp_window.cpp \
 		../BP_game/mainwindow.cpp \
 		../BP_game/object.cpp \
-		../BP_game/pathfinding.cpp \
 		../BP_game/scene.cpp \
 		../BP_game/thread.cpp
 QMAKE_TARGET  = BP_game
@@ -282,7 +280,7 @@ TARGET        = BP_game
 first: all
 ####### Build rules
 
-BP_game: ui_bp_settings.h ui_bp_window.h ui_mainwindow.h $(OBJECTS)  
+BP_game: ui_bp_settings.h ui_bp_window.h ui_gameover.h ui_mainwindow.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
 Makefile: ../BP_game/BP_game.pro ../../../Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf ../../../Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf \
@@ -660,9 +658,9 @@ distdir: FORCE
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents ../BP_game/res.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents ../../../Qt/5.15.2/gcc_64/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../BP_game/backtracking.h ../BP_game/bp_settings.h ../BP_game/bp_window.h ../BP_game/mainwindow.h ../BP_game/object.h ../BP_game/pathfinding.h ../BP_game/scene.h ../BP_game/thread.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../BP_game/backtracking.cpp ../BP_game/bp_settings.cpp ../BP_game/main.cpp ../BP_game/bp_window.cpp ../BP_game/mainwindow.cpp ../BP_game/object.cpp ../BP_game/pathfinding.cpp ../BP_game/scene.cpp ../BP_game/thread.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../BP_game/bp_settings.ui ../BP_game/bp_window.ui ../BP_game/mainwindow.ui $(DISTDIR)/
+	$(COPY_FILE) --parents ../BP_game/bp_settings.h ../BP_game/bp_window.h ../BP_game/gameover.h ../BP_game/mainwindow.h ../BP_game/object.h ../BP_game/scene.h ../BP_game/thread.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../BP_game/bp_settings.cpp ../BP_game/gameover.cpp ../BP_game/main.cpp ../BP_game/bp_window.cpp ../BP_game/mainwindow.cpp ../BP_game/object.cpp ../BP_game/scene.cpp ../BP_game/thread.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../BP_game/bp_settings.ui ../BP_game/bp_window.ui ../BP_game/gameover.ui ../BP_game/mainwindow.ui $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -700,9 +698,9 @@ compiler_moc_predefs_clean:
 moc_predefs.h: ../../../Qt/5.15.2/gcc_64/mkspecs/features/data/dummy.cpp
 	g++ -pipe -g -std=gnu++11 -Wall -Wextra -dM -E -o moc_predefs.h ../../../Qt/5.15.2/gcc_64/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_bp_settings.cpp moc_bp_window.cpp moc_mainwindow.cpp moc_scene.cpp moc_thread.cpp
+compiler_moc_header_make_all: moc_bp_settings.cpp moc_bp_window.cpp moc_gameover.cpp moc_mainwindow.cpp moc_scene.cpp moc_thread.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_bp_settings.cpp moc_bp_window.cpp moc_mainwindow.cpp moc_scene.cpp moc_thread.cpp
+	-$(DEL_FILE) moc_bp_settings.cpp moc_bp_window.cpp moc_gameover.cpp moc_mainwindow.cpp moc_scene.cpp moc_thread.cpp
 moc_bp_settings.cpp: ../BP_game/bp_settings.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
@@ -810,7 +808,7 @@ moc_bp_settings.cpp: ../BP_game/bp_settings.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/gcc_64/bin/moc
-	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/bp_settings.h -o moc_bp_settings.cpp
+	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/bp_settings.h -o moc_bp_settings.cpp
 
 moc_bp_window.cpp: ../BP_game/bp_window.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QMainWindow \
@@ -925,9 +923,121 @@ moc_bp_window.cpp: ../BP_game/bp_window.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QGraphicsRectItem \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qgraphicsitem.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qpainterpath.h \
+		../BP_game/gameover.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/gcc_64/bin/moc
-	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/bp_window.h -o moc_bp_window.cpp
+	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/bp_window.h -o moc_bp_window.cpp
+
+moc_gameover.cpp: ../BP_game/gameover.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qwindowdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qwindowdefs_win.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmargins.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpaintdevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrect.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsize.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpalette.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qrgba64.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qbrush.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qmatrix.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpolygon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qregion.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatastream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qline.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtransform.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qimage.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpixelformat.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpixmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfont.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontmetrics.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qcursor.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qkeysequence.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qfile.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qfiledevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qvector2d.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h \
+		moc_predefs.h \
+		../../../Qt/5.15.2/gcc_64/bin/moc
+	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/gameover.h -o moc_gameover.cpp
 
 moc_mainwindow.cpp: ../BP_game/mainwindow.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QMainWindow \
@@ -1043,9 +1153,17 @@ moc_mainwindow.cpp: ../BP_game/mainwindow.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QGraphicsRectItem \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qgraphicsitem.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qpainterpath.h \
+		../BP_game/gameover.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QTcpSocket \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/gcc_64/bin/moc
-	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/mainwindow.h -o moc_mainwindow.cpp
+	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/mainwindow.h -o moc_mainwindow.cpp
 
 moc_scene.cpp: ../BP_game/scene.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QGraphicsScene \
@@ -1145,9 +1263,26 @@ moc_scene.cpp: ../BP_game/scene.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qpainterpath.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QPointF \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QSizeF \
+		../BP_game/gameover.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpalette.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontmetrics.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qcursor.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qkeysequence.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qfile.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qfiledevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qvector2d.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/gcc_64/bin/moc
-	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/scene.h -o moc_scene.cpp
+	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/scene.h -o moc_scene.cpp
 
 moc_thread.cpp: ../BP_game/thread.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QThread \
@@ -1208,15 +1343,15 @@ moc_thread.cpp: ../BP_game/thread.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/gcc_64/bin/moc
-	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/thread.h -o moc_thread.cpp
+	/home/kenneth/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/kenneth/Escritorio/Proyecto-II-Let-s-play-/build-BP_game-Desktop_Qt_5_15_2_GCC_64bit-Debug/moc_predefs.h -I/home/kenneth/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/kenneth/Escritorio/Proyecto-II-Let-s-play-/BP_game -I/home/kenneth/Qt/5.15.2/gcc_64/include -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtGui -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/kenneth/Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../BP_game/thread.h -o moc_thread.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
-compiler_uic_make_all: ui_bp_settings.h ui_bp_window.h ui_mainwindow.h
+compiler_uic_make_all: ui_bp_settings.h ui_bp_window.h ui_gameover.h ui_mainwindow.h
 compiler_uic_clean:
-	-$(DEL_FILE) ui_bp_settings.h ui_bp_window.h ui_mainwindow.h
+	-$(DEL_FILE) ui_bp_settings.h ui_bp_window.h ui_gameover.h ui_mainwindow.h
 ui_bp_settings.h: ../BP_game/bp_settings.ui \
 		../../../Qt/5.15.2/gcc_64/bin/uic
 	/home/kenneth/Qt/5.15.2/gcc_64/bin/uic ../BP_game/bp_settings.ui -o ui_bp_settings.h
@@ -1224,6 +1359,10 @@ ui_bp_settings.h: ../BP_game/bp_settings.ui \
 ui_bp_window.h: ../BP_game/bp_window.ui \
 		../../../Qt/5.15.2/gcc_64/bin/uic
 	/home/kenneth/Qt/5.15.2/gcc_64/bin/uic ../BP_game/bp_window.ui -o ui_bp_window.h
+
+ui_gameover.h: ../BP_game/gameover.ui \
+		../../../Qt/5.15.2/gcc_64/bin/uic
+	/home/kenneth/Qt/5.15.2/gcc_64/bin/uic ../BP_game/gameover.ui -o ui_gameover.h
 
 ui_mainwindow.h: ../BP_game/mainwindow.ui \
 		../../../Qt/5.15.2/gcc_64/bin/uic
@@ -1238,9 +1377,6 @@ compiler_lex_clean:
 compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_header_clean compiler_uic_clean 
 
 ####### Compile
-
-backtracking.o: ../BP_game/backtracking.cpp ../BP_game/backtracking.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o backtracking.o ../BP_game/backtracking.cpp
 
 bp_settings.o: ../BP_game/bp_settings.cpp ../BP_game/bp_settings.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
@@ -1349,6 +1485,114 @@ bp_settings.o: ../BP_game/bp_settings.cpp ../BP_game/bp_settings.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h \
 		ui_bp_settings.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o bp_settings.o ../BP_game/bp_settings.cpp
+
+gameover.o: ../BP_game/gameover.cpp ../BP_game/gameover.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qwindowdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qwindowdefs_win.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmargins.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpaintdevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrect.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsize.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpalette.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qrgba64.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qbrush.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qmatrix.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpolygon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qregion.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatastream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qline.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtransform.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qimage.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpixelformat.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpixmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfont.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontmetrics.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qcursor.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qkeysequence.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qfile.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qfiledevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qvector2d.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h \
+		ui_gameover.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o gameover.o ../BP_game/gameover.cpp
 
 main.o: ../BP_game/main.cpp ../BP_game/bp_window.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QMainWindow \
@@ -1463,7 +1707,15 @@ main.o: ../BP_game/main.cpp ../BP_game/bp_window.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QGraphicsRectItem \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qgraphicsitem.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qpainterpath.h \
+		../BP_game/gameover.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
 		../BP_game/mainwindow.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QTcpSocket \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QApplication \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qapplication.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreapplication.h \
@@ -1586,6 +1838,9 @@ bp_window.o: ../BP_game/bp_window.cpp ../BP_game/bp_window.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QGraphicsRectItem \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qgraphicsitem.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qpainterpath.h \
+		../BP_game/gameover.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
 		ui_bp_window.h \
 		../BP_game/scene.h \
 		../BP_game/object.h \
@@ -1597,7 +1852,15 @@ bp_window.o: ../BP_game/bp_window.cpp ../BP_game/bp_window.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qthread.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qdeadlinetimer.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h \
-		../BP_game/mainwindow.h
+		../BP_game/mainwindow.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QTcpSocket \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QDebug \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QRandomGenerator \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrandom.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o bp_window.o ../BP_game/bp_window.cpp
 
 mainwindow.o: ../BP_game/mainwindow.cpp ../BP_game/mainwindow.h \
@@ -1714,10 +1977,16 @@ mainwindow.o: ../BP_game/mainwindow.cpp ../BP_game/mainwindow.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QGraphicsRectItem \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qgraphicsitem.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qpainterpath.h \
-		ui_mainwindow.h \
-		../BP_game/bp_settings.h \
+		../BP_game/gameover.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
-		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QTcpSocket \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		ui_mainwindow.h \
+		../BP_game/bp_settings.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../BP_game/mainwindow.cpp
 
 object.o: ../BP_game/object.cpp ../BP_game/object.h \
@@ -1822,9 +2091,6 @@ object.o: ../BP_game/object.cpp ../BP_game/object.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontmetrics.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o object.o ../BP_game/object.cpp
 
-pathfinding.o: ../BP_game/pathfinding.cpp ../BP_game/pathfinding.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o pathfinding.o ../BP_game/pathfinding.cpp
-
 scene.o: ../BP_game/scene.cpp ../BP_game/scene.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QGraphicsScene \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qgraphicsscene.h \
@@ -1922,7 +2188,24 @@ scene.o: ../BP_game/scene.cpp ../BP_game/scene.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qpainterpath.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QPointF \
-		../../../Qt/5.15.2/gcc_64/include/QtCore/QSizeF
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QSizeF \
+		../BP_game/gameover.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QDialog \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qpalette.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontmetrics.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qfontinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qsizepolicy.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qcursor.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qkeysequence.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qfile.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qfiledevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qvector2d.h \
+		../../../Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o scene.o ../BP_game/scene.cpp
 
 thread.o: ../BP_game/thread.cpp ../BP_game/thread.h \
@@ -1992,6 +2275,9 @@ moc_bp_settings.o: moc_bp_settings.cpp
 
 moc_bp_window.o: moc_bp_window.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_bp_window.o moc_bp_window.cpp
+
+moc_gameover.o: moc_gameover.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_gameover.o moc_gameover.cpp
 
 moc_mainwindow.o: moc_mainwindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_mainwindow.o moc_mainwindow.cpp

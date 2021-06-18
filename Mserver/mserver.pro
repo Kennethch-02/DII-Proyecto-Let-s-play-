@@ -13,6 +13,7 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    backtraking.cpp \
     client.cpp \
     dialog.cpp \
     json.cpp \
@@ -20,15 +21,18 @@ SOURCES += \
     memorymanager.cpp \
     message.cpp \
     mserver.cpp \
+    pathfinding.cpp \
     server.cpp
 
 HEADERS += \
+    backtraking.h \
     client.h \
     dialog.h \
     json.h \
     memorymanager.h \
     message.h \
     mserver.h \
+    pathfinding.h \
     server.h
 
 FORMS += \

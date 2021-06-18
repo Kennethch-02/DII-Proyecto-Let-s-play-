@@ -19,6 +19,10 @@ mserver::~mserver()
 {
     delete ui;
 }
+/**
+* \brief Conecta el servidor a un puerto en especial
+* @param QServerSocket
+*/
 void mserver::on_Connect_clicked()
 {
     Dialog m(this);

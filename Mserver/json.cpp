@@ -4,6 +4,11 @@
 #include "QJsonDocument"
 #include "QJsonArray"
 #include "QJsonObject"
+/**
+* \brief Json con la capacidad de enviar mensajes interpretador
+* mediante la clase Message para la comunicacion cliente-servidor.
+* @param QJsonObject
+*/
 json::json()
 {
 

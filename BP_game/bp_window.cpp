@@ -3,8 +3,13 @@
 #include "scene.h"
 #include "thread.h"
 #include "mainwindow.h"
-
+#include "QDebug"
+#include <QRandomGenerator>
 #define Mseg 200
+/**
+* \brief Aplicaciòn que contiene las animaciones y escena principaldel juego.
+* @param QMainWindow
+*/
 BP_Window::BP_Window(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::BP_Window)
@@ -18,8 +23,38 @@ BP_Window::BP_Window(QWidget *parent)
     });
     connect(this, &BP_Window::update, scene,
             &Scene::Update);
+    connect(this, &BP_Window::update,
+            &BP_Window::Verify);
     check_selec = 0;
 }
+
+/**
+* \brief meotodo conectado a la señal del Thread, sirve como forma de verificar eventos
+* externos a la escena del juego.
+* @param QMainWindow
+*/
+void BP_Window::Verify(){
+    ui->LCD_J1->display(scene->J1);
+    ui->LCD_J2->display(scene->J2);
+    if(scene->J1 == max_goles){
+        gameover.set_message("Win J1");
+        if(gameover.exec() == QDialog::Rejected){
+            thread->stop();
+            this->destroy();
+        }
+    }if(scene->J2 == max_goles){
+        gameover.set_message("Win J2");
+        if(gameover.exec() == QDialog::Rejected){
+            thread->stop();
+            this->destroy();
+        }
+    }
+}
+
+/**
+* \brief Metodo que inicia el juego
+* @param QMainWindow
+*/
 void BP_Window::START()
 {
     ui->LCD_MaxGoals->display(max_goles);
@@ -31,14 +66,30 @@ void BP_Window::START()
     draw_matrix();
     thread->start(Mseg, QThread::HighestPriority);
 }
+
+/**
+* \brief Metodo que retorna un numero aleatorio
+* @param QRand
+*/
+int BP_Window::random_num(int min, int max)
+{
+    return (rand()%max) + min;
+}
+/**
+* \brief Metodo que se encarga de dibujar la matriz en pantalla, interpreta los valores
+* de la mista como elementos graficos.
+* @param QMainWindow
+*/
 void BP_Window::draw_matrix()
 {
+
     int max_jugadores = jugadores/2;
     for (int i = 0; i<max_jugadores;i++){
+        srand((int) time(0));
         int f = rand()%(4-0+1)+0;
         int c = rand()%(3-0+1)+0;
-        int f1=rand()%(4-0+1)+0;
-        int c1=rand()%(8-5+1)+5;
+        int f1= rand()%(4-0+1)+0;
+        int c1= rand()%(8-5+1)+5;
         if(scene->matrix[f][c] != 3 and scene->matrix[f][c]!=1){
             if(scene->matrix[f1][c1]!=4 and scene->matrix[f1][c1]!=1){
                 scene->matrix[f][c] = 1;
@@ -67,6 +118,8 @@ void BP_Window::draw_matrix()
                 Px += (w);
             }else if(scene->matrix[fila][columna] == 2){
                 scene->drawBall(Px, Py, w, h, 0);
+                scene->c_x = Px;
+                scene->c_y = Py;
                 scene->Ball_pos.setX(fila);
                 scene->Ball_pos.setY(columna);
                 Px += (w);
@@ -81,6 +134,10 @@ void BP_Window::draw_matrix()
         Py+=(w+0.5);
     }
 }
+/**
+* \brief Cambia el turno de juego
+* @param QMainWindow
+*/
 void BP_Window::change_turn()
 {
     if (ui->BTN_Shot2->isEnabled()){
@@ -95,6 +152,11 @@ void BP_Window::change_turn()
         ui->Fuerza1->setDisabled(true);
     }
 }
+
+/**
+* \brief Acciones realizadas por los botones de la aplicacion
+* @param QButton
+*/
 void BP_Window::on_Menu_clicked()
 {
     thread->stop();

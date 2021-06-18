@@ -1,6 +1,9 @@
 #include "message.h"
 using namespace std;
-
+/**
+* \brief Clase interprete apra los mensajes entre cliente-servidor.
+* @param QString
+*/
 message::message()
 {
 }

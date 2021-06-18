@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QGraphicsScene>
 #include <QGraphicsRectItem>
-
+#include "gameover.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class BP_Window; }
 QT_END_NAMESPACE
@@ -25,9 +25,12 @@ public:
     void START();
     void draw_matrix();
     void change_turn();
+    static int random_num(int min, int max);
     int check_selec;
     int jugadores;
     int max_goles;
+    int port;
+    GameOver gameover;
 signals:
     void update();
 private slots:
@@ -53,6 +56,7 @@ private slots:
 
     void on_Down2_stateChanged(int arg1);
 
+    void Verify();
 private:
     Ui::BP_Window *ui;
     Scene *scene;
