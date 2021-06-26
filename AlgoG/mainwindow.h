@@ -12,6 +12,7 @@
 #include <thread.h>
 #include <Server.h>
 #include <QMainWindow>
+#include <iostream>
 using namespace std;
 
 
@@ -43,6 +44,10 @@ private slots:
 
     void on_next_clicked();
 
+    void on_mixinit_clicked();
+
+    void on_prev_clicked();
+
 private:
     Ui::MainWindow *ui;
     int row;
@@ -51,11 +56,18 @@ private:
     QList<QLabel*> labelList;
     QList<QPixmap*> pixmapList;
     int *Rlist;
+    int *slist;
     Server *Servidor;
     Thread *sThread;
     string swapstr;
     string SWA;
     string SWB;
+    string status;
+
+    int progress;
+
+
+
 
 };
 #endif // MAINWINDOW_H

@@ -52,7 +52,7 @@ public:
     string json(string data);
 
 private:
-    Codex *codex;
+
 
 
 };

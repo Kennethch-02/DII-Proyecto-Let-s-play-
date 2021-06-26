@@ -14,6 +14,8 @@ Thread::Thread(QObject *parent, string* wstr, string* SA ,string* SB): QThread(p
 
 {
         Servidor = new Server();
+        *SWA=" ";
+        *SWB=" ";
 }
 
 void Thread::sendmsj(string codeText){
@@ -40,6 +42,9 @@ void Thread::run(){
             cout << Vector[i] << endl;
         }
 
+       // *SWA = rand() % ( 11 );
+       // *SWB = rand() % ( 11 );
+
         *SWA = Vector[0];
         *SWB = Vector[1];
 
@@ -56,7 +61,7 @@ void Thread::run(){
 
      //   *logstr = *logstr + (string)"\n" + "mensaje recibido";
       //  emit vallog(QString::fromStdString(*logstr));
-        msleep(100);
+
         //Servidor->CerrarSocket();
 
 

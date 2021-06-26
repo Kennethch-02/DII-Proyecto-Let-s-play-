@@ -12,7 +12,11 @@ MainWindow::MainWindow(QWidget *parent)
 
 
 
+
+
     sThread = new Thread(this,&swapstr,&SWA,&SWB);
+
+    progress = 0;
 /*
     connect(sThread,&Thread::valswap,[&](string ms){
         if(ms=="next"){
@@ -39,17 +43,16 @@ MainWindow::~MainWindow()
 
 
 /**
-* \brief Cliente: Conecta con el servidor para completar el
-* algoritmo Cliente-Servidor
-* @param QTcpSocket
+* \brief Cliente Rompeca: Inicia y mezcla el juego
+* @param
 */
-
-void MainWindow::on_play_clicked()
+void MainWindow::on_mixinit_clicked()
 {
     range = col*row;
     int wei = 1200/col;
     int lon = 1200/row;
     Rlist = new int[range];
+    slist = new int[range*range];
 
 
 
@@ -60,7 +63,7 @@ void MainWindow::on_play_clicked()
             label->setScaledContents(true);
             QPixmap *pixmap = new QPixmap("://Image/Image2.jpg");
             *pixmap = pixmap->copy(j*wei,i*lon,wei,lon);
-
+           //slist
             label->setPixmap(*pixmap);
             ui->Grid->addWidget(label,i,j);
 
@@ -70,28 +73,43 @@ void MainWindow::on_play_clicked()
 
         }
     }
+    QPixmap *pixmap = new QPixmap("://Image/black.jpg");
+    *pixmap = pixmap->scaled(QSize(wei,lon));
+    pixmapList[range-1] = &*pixmap;
+    labelList[range-1]->setPixmap(*pixmap);
 
-/*
-    QPainter painter;
-    painter.begin(&*pixmapList[0]);
-    painter.setOpacity(0.1);
-    painter.drawPixmap(0, 0, *pixmapList[0]);
-    painter.end();
-    */
 
+    string msj;
 
     genRlist();
 
     miximag();
-    /*
-    string msj ="play";
-    for(int i=0; i<range;i++){
+
+    msj = (string)to_string(Rlist[0]);
+
+    for(int i=1; i<range;i++){
         msj = msj + (string)"," + (string)to_string(Rlist[i]);
     }
 
+    msj = msj + (string)"," + (string)to_string(row);
+
+    ui->progressBar->setValue(progress);
+
     sThread->sendmsj(msj);
-    */
+
+
+
+
 }
+/**
+* \brief Cliente Rompeca: Empieza a correr el juego en el servidor
+* @param
+*/
+void MainWindow::on_play_clicked()
+{
+        swap(stoi(SWA),stoi(SWB));
+}
+
 
 void MainWindow::swap(int a,int b){
     QPixmap *var = &*pixmapList[a];
@@ -109,27 +127,61 @@ void MainWindow::swap(int a,int b){
     Rlist[b] = ivar;
 
 }
+
+/**
+* \brief Cliente Rompeca: Realiza mezcla de las fichas
+* @param
+*/
 void MainWindow::miximag(){
 
     srand (time(NULL));
     for(int i = 0 ; i<range ; i++){
+
         swap(rand() % ( range ),rand() % ( range ));
     }
 
 }
 
+
+
+
+/**
+* \brief Cliente: Boton para el soguiente cambio
+* @param
+*/
 void MainWindow::nextOrder(){
+
+
+    string sa = SWA;
+    string sb = SWB;
     this->sThread->sendmsj("next");
     this->sThread->start();
-    this->swap(stoi(SWA),stoi(SWB));
+    //swap(stoi(SWA),stoi(SWB));
+
+    progress = progress+1;
+    ui->progressBar->setValue(progress);
 
 }
 
+
+/**
+* \brief Cliente Rompeca: Boton el cambio anterior
+* @param
+*/
 void MainWindow::prevOrder(){
-    this->swap(stoi(SWA),stoi(SWB));
+    progress = progress-1;
+    ui->progressBar->setValue(progress);
+    this->sThread->sendmsj("p");
+    this->sThread->start();
+
+
 
 }
 
+/**
+* \brief Cliente Rompeca: genera lista para resolover el juego
+* @param int list[n]
+*/
 void MainWindow::genRlist(){
     for (int i = 0; i<range ; i++){
         Rlist[i] = i;
@@ -137,27 +189,53 @@ void MainWindow::genRlist(){
     }
 }
 
+
+/**
+* \brief Cliente Rompeca: tomar cantidad de fichas
+* @param int a, int b
+*/
 void MainWindow::on_set_clicked()
 {
     this->row=ui->spinBoxX->value();
     this->col= ui->spinBoxY->value();
 }
 
-
+/**
+* \brief Cliente Rompeca: Resetear el tablero
+* @param
+*/
 void MainWindow::on_reset_clicked()
 {
     this->SWA=to_string(ui->spinBoxX->value());
     this->SWB= to_string(ui->spinBoxY->value());
 
-    this->prevOrder();
+    this->nextOrder();
 
 
 
 }
-
+/**
+* \brief Cliente: Boton para el soguiente cambio
+* @param
+*/
 
 void MainWindow::on_next_clicked()
 {
     nextOrder();
+}
+
+
+
+
+
+
+
+
+
+
+
+void MainWindow::on_prev_clicked()
+{
+    prevOrder();
 }
 

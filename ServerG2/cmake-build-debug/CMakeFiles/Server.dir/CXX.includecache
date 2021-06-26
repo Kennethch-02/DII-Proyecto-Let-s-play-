@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.h
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.cpp
+iostream
+-
 string
 -
+Codex.h
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.h
+
+C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.h
 boost/algorithm/string.hpp
 -
 winsock2.h
@@ -17,27 +23,7 @@ vector
 -
 iostream
 -
-
-C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Memory.cpp
-Memory.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Memory.h
-Codex.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.h
-
-C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Memory.h
-iostream
--
-vector
--
-boost/algorithm/string.hpp
--
-Codex.h
-C:/UNIVERSIDAD/Datos2_2021/Proyecto2/Proyecto-II-Let-s-play-/ServerG2/Codex.h
-sstream
--
-iostream
--
-stdlib.h
+string
 -
 
 C:/UNIVERSIDAD/Datos2_2021/Proyecto2/boost_1_76_0/boost/algorithm/string.hpp
